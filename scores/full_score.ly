@@ -15,7 +15,7 @@
       title = "D I X I T   D O M I N U S"
     }
     \paper { indent = 3\cm }
-    % \tocSection "1" "Dixit Dominus"
+    \tocSection "1" "Dixit Dominus"
     \score {
       <<
         \new StaffGroup <<
