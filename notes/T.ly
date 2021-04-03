@@ -156,6 +156,131 @@ DixitTenoreLyrics = \lyricmode {
   men, a -- men. %78 finis
 }
 
+ConfiteborTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*4
+    \mvTr h4.\pE^\solo e8 cis4 h %5
+    a8( h4) a8 gis8. fis16 e8 gis
+    a h16([ cis)] h8 a gis16([ fis)] e8 h' h
+    e8. e16 e8 e e dis r dis16([ e)]
+    fis8 fis fis fis fis e r h
+    cis4. dis8 e4 fis %10
+    fis8( e4 dis8) e4 r
+    \mvTr e\fE^\tutti e r2
+    e4 e cis8. cis16 h4
+    cis8. cis16 h4 h8. h16 h4
+    fis'8. fis16 fis4 e8. e16 e4 %15
+    h8 h h h16 h h8 h r h
+    h h h h cis dis cis4\trill
+    h r r2
+    R1*7 %25
+    r4 \mvTr e4\fE^\tutti e8. e16 e4
+    fis8 fis fis fis e8. e16 e8 e
+    e2 dis4 \tempoConfiteborB d
+    d4. d8 dis4 dis
+    dis cis cis his %30
+    cis4. cis8 cis2
+    dis4 dis dis8 dis4 dis8
+    dis4 dis8 dis dis2
+    \tempoConfiteborC e8 e e e16 e e8. e16 e4
+    d8 d d d cis cis r cis %35
+    fis fis fis8. fis16 e8 fis fis([ e)]
+    dis h cis dis e4 e
+    dis8 e16 e e8([ dis)] e4 r
+    R1*14 %52
+    r2 \mvTr dis4\fE^\tutti dis
+    r2 dis8 dis dis dis
+    dis dis16 dis dis8 dis e e r \mvTr h\pE^\solo %55
+    h8^\critnote h16 h16 cis8 cis cis cis16 cis dis8 dis
+    dis8. dis16 e4 cis8 h a8. a16
+    gis4 r r8 \mvTr gis4\fE^\tutti gis8
+    a a a a gis gis16 gis h8 h
+    cis cis16 cis h4 h r8 h %60
+    h h16 h cis8 cis h h r fis'
+    fis e16 e e8 dis e4 \tempoConfiteborD e~
+    e e8 e fis2
+    e4 cis dis4. dis8
+    e4 e2 e4 %65
+    e dis8 dis e2
+    dis \tempoConfiteborE dis4 dis
+    cis8 cis a cis h8. h16 h8 h
+    cis4 h h8 h r cis
+    dis cis cis([ h)] h4 r %70
+    r2 r8 e4 cis8
+    fis e16 fis dis8 cis16([ dis)] e8 dis cis4
+    dis8 e4( dis8) e4 r8 cis~
+    cis[ a] dis4 h8[ ais16 h] cis8[ dis]
+    e[ dis] cis4 h r8 h~ %75
+    h[ gis] cis4 a r8 cis~
+    cis[ a] dis4 h r8 h
+    cis cis4 fis h, e8
+    h h h4 h r
+    r8 h([ cis h)] h4 r\fermata \bar "|." %80 finis
+  }
+}
+
+ConfiteborTenoreLyrics = \lyricmode {
+  Con -- fi -- te -- bor %5
+  ti -- bi, Do -- mi -- ne, in
+  to -- to cor -- de me -- o, in con --
+  si -- li -- o iu -- sto -- rum, et
+  con -- gre -- ga -- ti -- o -- ne, et
+  con -- gre -- ga -- ti -- %10
+  o -- ne.
+  Ma -- gna,
+  ma -- gna o -- pe -- ra,
+  o -- pe -- ra Do -- mi -- ni,
+  o -- pe -- ra Do -- mi -- ni: %15
+  Ex -- qui -- si -- ta in o -- mnes, in
+  o -- mnes vo -- lun -- ta -- tes e --
+  ius.
+
+  Me -- mo -- ri -- am %26
+  fe -- cit mi -- ra -- bi -- li -- um su --
+  o -- rum, mi --
+  se -- ri -- cors et
+  mi -- se -- ra -- tor %30
+  Do -- mi -- nus.
+  E -- scam de -- dit ti --
+  men -- ti -- bus se;
+  me -- mor e -- rit in sae -- cu -- lum
+  te -- sta -- men -- ti su -- i. Vir -- %35
+  tu -- tem o -- pe -- rum su -- o --
+  rum an -- nun -- ti -- a -- bit
+  po -- pu -- lo su -- o,
+
+  San -- ctum, %53
+  san -- ctum et ter --
+  ri -- bi -- le no -- men e -- ius. I -- %55
+  ni -- ti -- um sa -- pi -- en -- ti -- ae ti -- mor
+  Do -- mi -- ni, ti -- mor Do -- mi --
+  ni; in -- tel --
+  le -- ctus bo -- nus o -- mni -- bus fa -- ci --
+  en -- ti -- bus e -- um: Lau -- %60
+  da -- ti -- o e -- ius ma -- net in
+  sae -- cu -- lum sae -- cu -- li. Glo --
+  ri -- a Pa --
+  tri et Fi -- li --
+  o et Spi -- %65
+  ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per, et
+  nunc et sem -- per %70
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- men, a --
+  _ _ _
+  _ _ men, a -- %75
+  _ men, a --
+  _ men, a --
+  _ _ _ _ _
+  _ men, a -- men,
+  a -- men. %80 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

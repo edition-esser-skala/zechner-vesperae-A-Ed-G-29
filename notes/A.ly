@@ -158,6 +158,137 @@ DixitAltoLyrics = \lyricmode {
   men, a -- men. %78 finis
 }
 
+ConfiteborAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*11 %11
+    \mvTr gis'4\fE^\tutti gis r2
+    gis4 gis e8. e16 e4
+    fis8. fis16 fis4 e8. e16 e4
+    a8. a16 a4 gis8. gis16 gis4 %15
+    gis8 gis gis gis16 gis fis8 fis r a
+    gis gis gis gis fis fis gis([ fis)]
+    fis4 r r2
+    R1
+    r2 \mvTr fis\pE^\solo %20
+    h8. h16 gis4 e8 dis16([ cis)] fis8 e
+    dis( h'4 gis8 e) dis16 cis fis8 e
+    dis h h dis fis2~
+    fis8 e16 dis e8 fis16([ gis)] a4. h16 a
+    gis8 fis16 e fis8. fis16 e4 r %25
+    r \mvTr gis\fE^\tutti gis8. gis16 gis4
+    fis8 fis fis fis gis8. gis16 gis8 gis
+    fis2 fis4 \tempoConfiteborB fis
+    fis4. fis8 fis4 fis
+    fis e dis dis %30
+    gis4.^\critnote gis8 fis2
+    fisis4 gis fisis gis8 gis
+    gis4 fisis8 fisis gis2
+    \tempoConfiteborC gis8 gis gis gis16 gis gis8. gis16 gis4
+    gis8 gis gis gis e e r e %35
+    a a a8. a16 gis8 a gis4
+    fis8 dis e fis gis4 fis
+    fis8 gis16 gis fis4 gis r
+    R1*9 %47
+    r2 r8 \mvTr gis\pE^\solo gis gis
+    a gis a fis gis fis16 e fis4\trill
+    e r r8 gis gis gis %50
+    fis4 fis e dis
+    e4. e8 dis dis cis4
+    h r \mvTr fis'\fE^\tutti fis
+    r2 fis8 fis fis fis
+    fis fis16 fis fis8 fis gis gis r4 %55
+    R1*2
+    r2 r8 e4 e8
+    fis fis fis fis gis gis16 gis gis8 gis
+    fis fis16 fis fis4 e r8 gis %60
+    fis gis16 a e8 fis fis gis r a
+    a gis16 gis fis8. fis16 e4 \tempoConfiteborD gis~
+    gis gis8 gis a2
+    gis4 gis fis4. fis8
+    gis4 gis2 gis4 %65
+    fis fis8 fis gis4( fis)
+    fis2 \tempoConfiteborE fis4 gis
+    gis8 fis fis fis fis8. e16 e8 e
+    e4 dis e8 e r e
+    dis e e([ dis)] e4 r8 a~ %70
+    a fis h a16 h gis8 gis gis e
+    a4 fis gis8[ a16 h] e,8[ a]
+    fis[ gis] a4 gis r
+    e8[ a] fis4 gis fis
+    fis2\trill fis8 fis4 gis8~ %75
+    gis4 e r8 gis4 \once \tieDashed a8~
+    a4 fis r r8 gis~
+    gis[ e] a[ gis16 a] fis4 e8 e(
+    fis e4 dis8) e gis( a[ gis16 fis]
+    gis4 fis) gis r\fermata \bar "|." %80 finis
+  }
+}
+
+ConfiteborAltoLyrics = \lyricmode {
+  Ma -- gna, %12
+  ma -- gna o -- pe -- ra,
+  o -- pe -- ra Do -- mi -- ni,
+  o -- pe -- ra Do -- mi -- ni: %15
+  Ex -- qui -- si -- ta in o -- mnes, in
+  o -- mnes vo -- lun -- ta -- tes e --
+  ius.
+
+  Con -- %20
+  fes -- si -- o et ma -- gni -- fi --
+  cen -- ti -- a o -- pus
+  e -- ius et iu -- sti --
+  ti -- a e -- ius ma -- net in
+  sae -- cu -- lum sae -- cu -- li.
+  Me -- mo -- ri -- am %26
+  fe -- cit mi -- ra -- bi -- li -- um su --
+  o -- rum, mi --
+  se -- ri -- cors et
+  mi -- se -- ra -- tor %30
+  Do -- mi -- nus.
+  E -- scam de -- dit ti --
+  men -- ti -- bus se;
+  me -- mor e -- rit in sae -- cu -- lum
+  te -- sta -- men -- ti su -- i. Vir -- %35
+  tu -- tem o -- pe -- rum su -- o --
+  rum an -- nun -- ti -- a -- bit
+  po -- pu -- lo su -- o.
+
+  Re -- dem -- pti -- %48
+  o -- nem mi -- sit po -- pu -- lo su --
+  o; man -- da -- vit %50
+  in ae -- ter -- num
+  te -- sta -- men -- tum su --
+  um. San -- ctum,
+  san -- ctum et ter --
+  ri -- bi -- le no -- men e -- ius. %55
+
+  In -- tel -- %58
+  le -- ctus bo -- nus o -- mni -- bus fa -- ci --
+  en -- ti -- bus e -- um: Lau -- %60
+  da -- ti -- o e -- ius ma -- net in
+  sae -- cu -- lum sae -- cu -- li. Glo --
+  ri -- a Pa --
+  tri et Fi -- li --
+  o et Spi -- %65
+  ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per, et
+  nunc et sem -- per et __ %70
+  in sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- _ _ _
+  _ _ men,
+  a -- _ _ _
+  _ men, a -- _ %75
+  men, a -- _
+  men, a --
+  _ _ men, a --
+  men, a --
+  men. %80 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -165,6 +165,135 @@ DixitSopranoLyrics = \lyricmode {
   men, a -- men. %78 finis
 }
 
+ConfiteborSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*11 %11
+    \mvTr h'4\fE^\tutti h r2
+    h4 h a8. a16 gis4
+    a8. a16 a4 gis8. gis16 gis4
+    cis8. cis16 h4 h8. h16 h4 %15
+    e8 e e e16 e e8 dis r fis
+    fis e e cis ais h h([ ais)]
+    h4 r r2
+    R1*7 %25
+    r4 \mvTr h\fE^\tutti h8. h16 h4
+    his8 his his his cis8. cis16 cis8 cis
+    cis2 h4 \tempoConfiteborB h
+    h4. h8 h4 h
+    his? cis gis gis %30
+    h4. h8 ais2
+    ais4 h ais h8 h
+    ais4 ais8 ais his2
+    \tempoConfiteborC h8 h h h16 h h8. h16 h4
+    h8 h h h cis cis r cis %35
+    h h h8. h16 h8 h h4
+    h8 h h h h4 cis
+    h8 h16 cis h4 h r
+    R1
+    \mvTr h8\pE^\solo h h gis16 a h8 cis16([ dis)] e8 cis %40
+    a8. a16 gis4 cis8 cis16 cis cis8 cis16 cis
+    his8 cis dis e16 fis e8 dis16([ cis)] cis8 his
+    cis4 r r2
+    R1*4 %47
+    r2 r8 \mvTr h\pE^\soloE h h
+    cis h cis a h a16 gis a4\trill
+    gis r r8 h h h %50
+    ais4 h ais h
+    cis4. cis8 cis h h([ ais)]
+    h4 r \mvTr h\fE^\tutti h
+    r2 h8 h h h
+    h h16 h h8 h h h r4 %55
+    R1*2
+    r2 r8 cis4 h8
+    a cis h a h h16 h h8 h
+    a a16 a a4 gis8 h e4~ %60
+    e8 dis16 dis cis8 fis dis e r cis
+    h h16 h h8. h16 h4 \tempoConfiteborD cis~
+    cis cis8 cis dis2
+    cis4 cis cis his
+    cis cis2 cis4 %65
+    cis h8 h cis2
+    h \tempoConfiteborE r
+    r h4 h
+    a8^\critnote a fis a gis8. gis16 gis8 a
+    a gis fis4 e8 e'4 cis8 %70
+    fis e16 fis dis8 cis16([ dis]) e8( h4) cis8
+    cis4( h) h r
+    r2 r8 e4 cis8
+    fis[ e16 fis] dis8[ cis16 dis] e4. dis8
+    cis h4 ais8 h dis4( h8 %75
+    e4) cis r8 e4( cis8
+    fis4) dis r8 h4 gis8
+    cis[ h16 cis] a4 h8[ a16 h] gis8[ \once \tieDashed a]~
+    a gis fis4 e8 h'([ cis dis)]
+    e e4( dis8) e4 r\fermata \bar "|." %80 finis
+  }
+}
+
+ConfiteborSopranoLyrics = \lyricmode {
+  Ma -- gna, %12
+  ma -- gna o -- pe -- ra,
+  o -- pe -- ra Do -- mi -- ni,
+  o -- pe -- ra Do -- mi -- ni: %15
+  Ex -- qui -- si -- ta in o -- mnes, in
+  o -- mnes vo -- lun -- ta -- tes e --
+  ius.
+
+  Me -- mo -- ri -- am %26
+  fe -- cit mi -- ra -- bi -- li -- um su --
+  o -- rum, mi --
+  se -- ri -- cors et
+  mi -- se -- ra -- tor %30
+  Do -- mi -- nus.
+  E -- scam de -- dit ti --
+  men -- ti -- bus se;
+  me -- mor e -- rit in sae -- cu -- lum
+  te -- sta -- men -- ti su -- i. Vir -- %35
+  tu -- tem o -- pe -- rum su -- o --
+  rum an -- nun -- ti -- a -- bit
+  po -- pu -- lo su -- o,
+
+  ut det il -- lis hae -- re -- di -- ta -- tem %40
+  gen -- ti -- um. O -- pe -- ra ma -- nu -- um
+  e -- ius ve -- ri -- tas et iu -- di -- ci --
+  um.
+
+  Re -- dem -- pti -- %48
+  o -- nem mi -- sit po -- pu -- lo su --
+  o; man -- da -- vit %50
+  in ae -- ter -- num
+  te -- sta -- men -- tum su --
+  um. San -- ctum,
+  san -- ctum et ter --
+  ri -- bi -- le no -- men e -- ius. %55
+
+  In -- tel -- %58
+  le -- ctus bo -- nus o -- mni -- bus fa -- ci --
+  en -- ti -- bus e -- um: Lau -- da -- %60
+  ti -- o e -- ius ma -- net in
+  sae -- cu -- lum sae -- cu -- li. Glo --
+  ri -- a Pa --
+  tri et Fi -- li --
+  o et Spi -- %65
+  ri -- tu -- i San --
+  cto,
+  si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in %70
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men,
+  a -- _
+  _ _ _ _
+  _ _ _ men, a -- %75
+  men, a --
+  men, a -- _
+  _ _ _ _
+  men, a -- men, a --
+  men, a -- men. %80 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

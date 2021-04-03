@@ -77,6 +77,90 @@ DixitViolinoI = {
   }
 }
 
+ConfiteborViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \tempoConfitebor
+    e8\f gis4 h8 e cis4 h8
+    \tuplet 3/2 8 { a16 gis fis } h4 a8 gis16 e e' e, gis e e' e,
+    \tuplet 3/2 8 { a gis fis } h4 a8 gis16 h cis dis e4
+    dis16 e fis gis a4 gis16 e h gis fis8 dis'
+    e, gis\p gis gis a4 gis %5
+    r2 gis16 e e' e, gis e e' e,
+    r2 h'16 gis e' gis, h gis e' gis,
+    gis'4 r fis16 h, h' h, fis' h, h' h,
+    a'4 r16 dis, e fis gis h, e h gis' h, e h
+    cis4 r8 h' e,4 a %10
+    gis fis\trill e16\f gis, h gis e' gis, h gis
+    e'4 r gis16 h, e h gis' h, e h
+    gis' h, cis dis e8 h cis16 h cis dis e fis gis8
+    \tuplet 3/2 8 { a,16 gis fis } h4 a8 gis16 e e' e, gis e e' e,
+    \tuplet 3/2 8 { a gis fis } h4 a8 gis16 e h' e, gis e h' e, %15
+    e'8 e e e e dis16. cis32 dis16. e32 fis8~
+    fis e16. dis32 e16. fis32 gis8 cis, dis cis4\trill
+    h8 dis4 fis8 h gis4 fis8
+    \tuplet 3/2 8 { e16 dis cis } fis4 e8 dis16 h h' h, dis h h' h,
+    \tuplet 3/2 8 { e dis cis } fis4 e8 dis h h,4 %20
+    R1*2
+    h'16\p fis dis' fis, h fis dis' fis, h4 h8 dis
+    gis2~ gis8 fis16 e \once \tieDashed fis4~
+    fis8 e4 dis8 gis,16\fE e e' e, gis e e' e, %25
+    gis e e' e, gis'4. gis8 gis4
+    fis8. fis16 fis8 fis e16 cis gis' cis, e cis gis' cis,
+    e cis fis cis e cis fis cis dis4 \tempoConfiteborB fis~
+    fis8 fis fis4 fis2
+    fis4 e dis2 %30
+    gis fis
+    fisis4 gis fisis gis
+    gis fisis gis2
+    \tempoConfiteborC e,16 e' h gis e e' h gis e e' h gis e e' h gis
+    e d' h gis e gis h d cis a a' a, cis a a' a, %35
+    fis' h, a' h, fis' h, a' h, gis'8 fis4 e8
+    dis dis16. e32 fis16. dis32 e16 fis gis8 gis fis e
+    dis e fis, dis' e,16 h' cis dis e4
+    dis16 e^\critnote fis gis a4 gis16 e h gis fis8 dis'
+    e,4 r r2 %40
+    r4 r8 gis'16\pE fis e8 e e e
+    dis4 r8 gis gis fis16 e dis8. dis16
+    cis4 r r2
+    r4 dis8 dis e dis e cis
+    dis4 r r2 %45
+    r r4 fis8 fis
+    gis fis gis e fis4 r8 a
+    a16 fis gis e fis4\trill e r
+    R1
+    gis,16 e e' e, gis e e' e, gis'4 r %50
+    R1*2
+    dis16\fE h h' h, dis h h' h, h'4 r
+    dis,16 h h' h, dis h h' h, h'4 r
+    dis,16 h h' h, dis h h' h, e4 r %55
+    R1*2
+    e,8\fE gis4 h8 e cis4 h8
+    \tuplet 3/2 8 { a16 gis fis } h4 a8 gis16 e e' e, gis e e' e,
+    \tuplet 3/2 8 { a' gis fis } h4 a8 gis16 h, cis dis e8 e %60
+    e dis cis fis dis e r a
+    a16 fis gis e fis4\trill e \tempoConfiteborD e~
+    e8 e e4 fis2
+    e4 cis2 his4
+    cis e4. e8 gis4 %65
+    fis2 e
+    dis \tempoConfiteborE r
+    r h4 h
+    a8 a fis a gis16 h cis dis e8 cis
+    dis e fis, dis' e, e'4 cis8 %70
+    fis e16 fis dis8 cis16 dis e8 h4 cis8~
+    cis fis dis4 e r
+    r2 r8 e4 cis8
+    fis e16 fis dis8 cis16 dis e4. dis8
+    cis h4 ais8 h dis4 h8 %75
+    e4 cis r8 e4 cis8
+    fis4 dis r8 h4 gis8
+    cis h16 cis a4 h8 a16 h gis8 a~
+    a gis fis4 e8 h' cis dis
+    e16 e, e'4 dis8 e4 r\fermata \bar "|." %80 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

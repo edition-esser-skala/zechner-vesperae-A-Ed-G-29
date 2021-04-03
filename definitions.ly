@@ -673,8 +673,13 @@ tocLabelLong = #(define-music-function
 
 
 tempoDixit = \tempoMarkup "Allegro"
-tempoDixitB = \tempoMarkup "Adagio"
-tempoDixitC = \tempoMarkup "Presto"
+  tempoDixitB = \tempoMarkup "Adagio"
+  tempoDixitC = \tempoMarkup "Presto"
+tempoConfitebor = \tempoMarkup "Allegro"
+  tempoConfiteborB = \tempoMarkup "Adagio"
+  tempoConfiteborC = \tempoMarkup "Allegro"
+  tempoConfiteborD = \tempoMarkup "Adagio"
+  tempoConfiteborE = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

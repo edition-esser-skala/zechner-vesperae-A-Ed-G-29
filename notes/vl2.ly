@@ -75,3 +75,87 @@ DixitViolinoII = {
     e g g r\fermata \bar "|." %78 finis
   }
 }
+
+ConfiteborViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \tempoConfitebor
+    e8\f gis4 h8 e cis4 h8
+    \tuplet 3/2 8 { a16 gis fis } h4 a8 gis16 e e' e, gis e e' e,
+    \tuplet 3/2 8 { a gis fis } h4 a8 gis16 h cis dis e4
+    dis16 e fis gis a4 gis16 e h gis fis8 dis'
+    e, h\p h h cis4 e %5
+    r2 gis16 e e' e, gis e e' e,
+    r2 h'16 gis e' gis, h gis e' gis,
+    gis'4 r16 gis, h cis fis,4 r8 fis16 gis
+    a gis a h a8 a a gis r gis
+    e a fis h gis cis h4 %10
+    h a8 gis16 fis gis\f e gis e h' e, gis e
+    h'4 r e16 gis, h gis e' gis, h gis
+    e'8 h16 a gis8 gis a8. a16 gis8 gis
+    fis fis fis fis e16 h gis' h, e h gis' h,
+    fis'8 fis fis fis e16 h gis' h, e h gis' h, %15
+    gis'8 gis16. a32 h16. a32 h16. gis32 fis4 r8 a
+    gis4 r8 h ais h4 ais8
+    h dis4 fis8 h gis4 fis8
+    \tuplet 3/2 8 { e16 dis cis } fis4 e8 dis16 h h' h, dis h h' h,
+    \tuplet 3/2 8 { e dis cis } fis4 e8 dis h h,4 %20
+    R1*2
+    r8 dis\p dis dis r dis fis dis
+    h2 r8 cis fis dis
+    h gis' fis4\trill gis16\f e e' e, gis e e' e, %25
+    gis e e' e, h'4. h8 h4
+    his8. his16 his8 his cis16 gis e' gis, cis gis e' gis,
+    fis8 fis fis fis fis4 \tempoConfiteborB d'4~
+    d8 d d4 dis2
+    his4 cis2 his4
+    cis2 cis
+    cis4 h ais h
+    ais2 his
+    \tempoConfiteborC e,16 e' h gis e e' h gis e e' h gis e e' h gis
+    e d' h gis e gis h d cis a a' a, cis a a' a, %35
+    fis' h, a' h, fis' h, a' h, gis'8 h,16 a gis4
+    fis8 h16. cis32 dis16. h32 cis16 dis e8 h a gis
+    fis gis fis4\trill gis r16 gis h cis
+    fis,4 r16 dis' e fis gis e h gis fis8 dis'
+    e,4 r r2 %40
+    r4 r8 e'16\p dis cis8 gis16 fis gis8 ais
+    his4 r8 dis e gis, a gis16 fis
+    e4 r r2
+    r4 his'8 his cis his cis ais
+    his4 r r2 %45
+    r r4 dis8 dis
+    e dis e cis dis4 r8 fis~
+    fis e4 dis8 e4 r
+    R1
+    gis,16 e e' e, gis e e' e, gis'4 r %50
+    R1*2
+    dis16\fE h h' h, dis h h' h, h'4 r
+    dis,16 h h' h, dis h h' h, h'4 r
+    dis,16 h h' h, dis h h' h, e4 r %55
+    R1*2
+    e,8\fE gis4 h8 e cis4 h8
+    \tuplet 3/2 8 { a16 gis fis } h4 a8 gis16 e e' e, gis e e' e,
+    \tuplet 3/2 8 { a' gis fis } h4 a8 gis16 h, cis dis e8 gis, %60
+    fis gis e a fis gis r cis
+    h e4 dis8 e4 \tempoConfiteborD gis,~
+    gis8 gis gis4 a2
+    gis fis
+    e4 gis2 e'4 %65
+    e dis cis2
+    fis, \tempoConfiteborE fis4 gis~
+    gis8 fis fis fis fis e e4
+    e dis e16 dis e fis gis8 a
+    a gis fis4 e r8 a~ %70
+    a fis h a16 h gis8 gis4 e8
+    e a fis4 gis8 a16 h cis4
+    h a gis r8 cis~
+    cis a fis4 h8 ais16 h cis8 dis
+    e dis cis4 h r8 h~ %75
+    h gis cis4 a r8 cis~
+    cis a dis4 h r8 gis~
+    gis e cis4 fis h,8 e
+    fis e4 dis8 e gis a gis16 fis
+    gis4 fis e r\fermata \bar "|." %80 finis
+  }
+}
