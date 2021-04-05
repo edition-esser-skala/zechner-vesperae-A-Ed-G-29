@@ -680,6 +680,12 @@ tempoConfitebor = \tempoMarkup "Allegro"
   tempoConfiteborC = \tempoMarkup "Allegro"
   tempoConfiteborD = \tempoMarkup "Adagio"
   tempoConfiteborE = \tempoMarkup "Allegro"
+tempoBeatus = \tempoMarkup "Allegro"
+  tempoBeatusB = \tempoMarkup "Adagio"
+  tempoBeatusC = \tempoMarkup "Allegro"
+  tempoBeatusD = \tempoMarkup "Adagio"
+  tempoBeatusE = \tempoMarkup "Allegro"
+  tempoBeatusF = \tempoMarkup "Presto"
 
 
 \include "notes/clno1.ly"

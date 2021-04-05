@@ -161,6 +161,152 @@ ConfiteborViolinoI = {
   }
 }
 
+BeatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoBeatus
+    R2.
+    a'16\f h cis d e fis gis a gis a gis a
+    a,2 r4
+    a16 h cis d e fis gis a gis a gis a
+    fis d fis a d8 a16 fis d4 %5
+    e16 cis a' cis, e cis a' cis, fis a, d a
+    e' a, cis a d fis, h fis d' e, h' e,
+    cis' h cis d e fis gis a gis a gis a
+    a,2 r4
+    a16 h cis d e fis gis a gis a gis a %10
+    a,2 r4
+    d16 e fis g a h cis d cis d cis d
+    d,8 fis16 a d a fis d d'4
+    e,16 d' e, d' e, d' e, d' e, d' e, d'
+    cis4 cis8 h a16 cis, h a %15
+    a' fis e d h^\critnote a' h, a' h, gis' h, gis'
+    a, h cis d e fis gis a gis a gis a
+    a,2 r4
+    R2.
+    a16\pE h cis d e fis gis a gis a gis a %20
+    fis2 r4
+    R2.*2
+    e2 e4~
+    e e dis %25
+    e16 h gis e e' h gis e e'4
+    r e,16 gis h e e,4
+    r r a16 cis e a
+    a,4 r r
+    r cis h %30
+    a2 r4
+    h16 cis d e fis gis a h a h a h
+    e,2 r4
+    a,16 h cis d e fis gis a gis a gis a
+    a,2 r4 %35
+    r e'16 h gis e e'4
+    a, a4. fis8
+    e4 r r
+    R2.
+    e16\fE fis gis a h cis dis e dis e dis e %40
+    e,2 r4
+    e16 fis gis a h cis dis e dis e dis e
+    e,2 r4
+    r16 e gis h e h gis e cis'4
+    h e e %45
+    e8 cis cis4 a'~
+    a8 a fis e d cis
+    h8. h16 cis4 r
+    fis,8 fis h h gis4
+    cis a8 a d d %50
+    cis16 h cis d e fis gis a gis a gis a
+    a,8. a,16 a'4 a
+    a16 h cis d e fis gis a gis a gis a
+    h, fis' gis a h, fis' gis a gis4\trillE
+    cis,16 a' cis, a' h, a' h, a' h, gis' h, gis' %55
+    a,4 r r
+    R2.*5 %61
+    r16 e\pE gis h e h gis e cis'4\trill
+    h r r
+    cis cis h
+    cis2 r4 %65
+    R2.
+    fis,16 gis a h cis dis eis fis eis fis eis fis
+    fis,2 r4
+    r16 h d fis h4 r16 a! gis fis
+    gis4 r16 e, gis h e4 %70
+    R2.
+    e,16 fis gis a h cis dis e dis e dis e
+    e,2 r4
+    R2.*4 %77
+    a16\fE h cis d e fis gis a gis a gis a
+    a,2 r4
+    a16 h cis d e fis gis a gis a gis a %80
+    a,2 r4
+    fis16 gis a h cis dis eis fis eis fis eis fis
+    fis,2 r4
+    d'16 e fis g? a h cis d cis d cis d
+    d,2 r4 %85
+    d16 h' d, h' d, h' d, h' cis, a' cis, a'
+    gis4 r r
+    R2.*3 %90
+    e,16\fE fis gis a h cis dis e dis e dis e
+    e,4 r r
+    r8 e' e e d! d
+    cis16 a cis e a e cis a fis'4
+    e16 d cis d e fis gis a gis a gis a %95
+    \tempoBeatusB a,4 a a
+    c c c
+    cis cis cis
+    d e f
+    f e r %100
+    \tempoBeatusC f16( a) f( a) f( a) f( a) f( a) f( a)
+    e( g) e( g) e( g) e( g) e( g) e( g)
+    d( f) d( f) d( f) d( f) d( f) d( f)
+    e8 e16 cis! a4 r
+    \tempoBeatusD R2.*6 %110
+    \tempoBeatusE a'4. a8 a4
+    fis e e
+    fis2 fis4
+    r fis fis
+    g2 fis4~ %115
+    fis fis e
+    fis a! a
+    h4. a8 h gis!
+    cis4. cis8 cis4
+    fis, gis a %120
+    gis2.
+    \tempoBeatusF R2.*2
+    r4 a, a
+    h h8 a h cis %125
+    d4 a d~
+    d cis8 h cis a
+    h4 e gis
+    a a8 gis a h
+    e,4 r e %130
+    h'4. a8 h gis
+    a4 a, a'
+    gis8 fis e d cis4
+    d h e~
+    e8 d cis h a4 %135
+    d2.
+    r4 cis cis
+    d d8 cis d e
+    a,4 cis fis
+    e r cis %140
+    h2.
+    a4 fis h
+    gis h h
+    cis cis8 h cis dis
+    e4 h e~ %145
+    e d!8 cis d h
+    cis2.
+    r4 e e,
+    a2.
+    gis4 e'8 d \once \tieDashed cis4~ %150
+    cis h2\trill
+    a4 e' cis
+    d h cis
+    a h gis
+    a2 r4\fermata \bar "|." %155 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

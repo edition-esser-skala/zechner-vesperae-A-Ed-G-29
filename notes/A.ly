@@ -289,6 +289,278 @@ ConfiteborAltoLyrics = \lyricmode {
   men. %80 finis
 }
 
+BeatusAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \autoBeamOff \tempoBeatus
+    \mvTr e4\fE^\tutti e e
+    e2 r4
+    r8 e e e fis8. fis16
+    e2 r4
+    fis4. fis8 fis fis %5
+    e4 a a
+    a fis( gis)
+    e r r
+    a a a
+    a a r %10
+    r8 e4 e8 e e
+    fis4 fis r
+    r fis fis
+    e4. e8 e e
+    e4 e8 d cis4 %15
+    fis e2
+    e r4
+    R2.*23 %40
+    \mvTr gis4\fE^\tutti gis gis
+    gis gis r
+    r8 gis gis gis a4
+    gis4.^\critnote gis8 a a
+    gis4 r r %45
+    e e e8 fis
+    fis4 fis r
+    e8 e e e e8. e16
+    fis4 fis8 fis gis gis
+    gis gis fis4 fis %50
+    e r r
+    e fis fis
+    e r r
+    fis4. fis8 e4
+    e e4. e8 %55
+    e4 \mvTr e\pE^\solo e
+    fis4. gis8 a4
+    h e,4. d8
+    cis4 a e'
+    fis8([ gis)] a2\trill %60
+    gis4 gis8 gis a a
+    gis2 a4
+    gis cis a
+    gis fis2\trill
+    eis eis4 %65
+    eis eis eis
+    cis cis r
+    R2.
+    fis4 fis gis8 a
+    gis4 gis8 gis e e %70
+    e4 e a8 a
+    a4 gis r
+    gis gis gis
+    fis4. fis8 fis4
+    e e e %75
+    fis fis8 fis e e
+    e a a4( gis)
+    a2 r4
+    \mvTr e\fE^\tutti e e
+    e e r %80
+    fis fis fis
+    fis8 fis fis4 r
+    fis fis fis8 fis
+    fis4 fis r
+    fis fis fis %85
+    e e8 e e e
+    e4 r r
+    r \mvTr fis\pE^\solo gis
+    a8([ gis)] a4 a8 a
+    gis a gis e fis8. fis16 %90
+    e2 r4
+    r8 \mvTr gis4\fE^\tutti gis8 gis4
+    a8 a4 a8 fis e
+    e4. e8 fis fis
+    e4 r r %95
+    \tempoBeatusB r e2
+    e4 e e
+    e e r
+    f g? f
+    f e r %100
+    \tempoBeatusC a8 a16 a a8 a16 a a8 a
+    g? g g g g g
+    f f r4 f8 f
+    e4 e r
+    \tempoBeatusD r fis! fis %105
+    g4. g8 fis4
+    r fis fis
+    g fis fis
+    d2.
+    d %110
+    \tempoBeatusE fis4. fis8 fis4
+    fis e e
+    fis4. fis8 fis4
+    r fis fis
+    g2 fis4 %115
+    fis fis( e)
+    fis fis fis
+    e4. e8 e e
+    e4. e8 e4
+    fis gis a %120
+    gis2 gis4
+    \tempoBeatusF r e e
+    fis fis8 e fis gis
+    a4 e \once \tieDashed a~
+    a gis8[ fis gis e] %125
+    fis2.
+    e2 a4~
+    a gis8[ fis] gis4
+    a4. gis8[ a h]
+    e,2 \once \tieDashed fis4~ %130
+    fis e2
+    R2.*3
+    r4 e e %135
+    fis fis8 e fis gis
+    a4 e \once \tieDashed a~
+    a g8[ fis g e]
+    fis2.
+    e4 \once \tieDashed a2~ %140
+    a4 gis8[ fis gis e]
+    fis2.
+    gis
+    r4 e fis
+    gis2 gis4 %145
+    fis2 e4
+    e2 a4
+    gis4. fis8[ gis a]
+    fis4 a2
+    h4( gis) e %150
+    e( fis e)
+    e cis'( a
+    h gis) a
+    e( fis e)
+    e2 r4\fermata \bar "|." %155 finis
+  }
+}
+
+BeatusAltoLyrics = \lyricmode {
+  Be -- a -- tus
+  vir
+  qui ti -- met Do -- mi --
+  num:
+  In man -- da -- tis %5
+  e -- ius vo --
+  let ni --
+  mis.
+  Po -- tens in
+  ter -- ra %10
+  e -- rit se -- men
+  e -- ius:
+  Ge -- ne --
+  ra -- ti -- o re --
+  cto -- rum be -- ne -- %15
+  di -- ce --
+  tur.
+
+  Iu -- cun -- dus %41
+  ho -- mo
+  qui mi -- se -- re --
+  tur et com -- mo --
+  dat, %45
+  dis -- po -- net ser --
+  mo -- nes
+  su -- os in iu -- di -- ci --
+  o: Qui -- a in ae --
+  ter -- num non, non, %50
+  non,
+  non, non, non,
+  non,
+  non, non com --
+  mo -- ve -- bi -- %55
+  tur. In me --
+  mo -- ri -- a
+  ae -- ter -- na
+  e -- rit, e --
+  rit iu -- %60
+  stus: Ab au -- di -- ti --
+  o -- ne
+  ma -- la non
+  ti -- me --
+  bit. Pa -- %65
+  ra -- tum cor
+  e -- ius
+
+  spe -- ra -- re in
+  Do -- mi -- no, con -- fir -- %70
+  ma -- tum est cor
+  e -- ius:
+  non com -- mo --
+  ve -- bi -- tur
+  do -- nec de -- %75
+  spi -- ci -- at in -- i --
+  mi -- cos su --
+  os.
+  Dis -- per -- sit
+  de -- dit, %80
+  de -- dit pau --
+  pe -- ri -- bus:
+  Iu -- sti -- ti -- a
+  e -- ius
+  ma -- net in %85
+  sae -- cu -- lum sae -- cu --
+  li:
+  Cor -- nu
+  e -- ius ex -- al --
+  ta -- bi -- tur in glo -- ri -- %90
+  a,
+  cor -- nu e --
+  ius ex -- al -- ta -- bi --
+  tur in glo -- ri --
+  a. %95
+  Pec --
+  ca -- tor vi --
+  de -- bit
+  et i -- ra --
+  sce -- tur, %100
+  den -- ti -- bus, den -- ti -- bus su -- is
+  fre -- met, fre -- met et ta -- be --
+  scet, et ta --
+  be -- scet:
+  De -- si -- %105
+  de -- ri -- um
+  pec -- ca --
+  to -- rum per --
+  i --
+  bit. %110
+  Glo -- ri -- a
+  Pa -- tri et
+  Fi -- li -- o
+  et Spi --
+  ri -- tu -- %115
+  i San --
+  cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o
+  et nunc et %120
+  sem -- per
+  et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  _ %125
+  _
+  men, a --
+  _ _
+  _ _
+  _ _ %130
+  men,
+
+  et in %135
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  _
+  _
+  men, a -- %140
+  _
+  _
+  men,
+  a -- men,
+  a -- men, %145
+  a -- men,
+  a -- _
+  _ _
+  _ men,
+  a -- men, %150
+  a --
+  men, a --
+  men,
+  a --
+  men. %155 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

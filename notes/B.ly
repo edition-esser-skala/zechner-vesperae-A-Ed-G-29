@@ -272,6 +272,254 @@ ConfiteborBassoLyrics = \lyricmode {
   a -- men. %80 finis
 }
 
+BeatusBassoNotes = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \autoBeamOff \tempoBeatus
+    \mvTr a'4\fE^\tutti a a
+    a2 r4
+    r8 a a a a a
+    a2 r4
+    d,4. d8 fis d %5
+    a'4 a a
+    a a( gis)
+    a r r
+    a a a
+    a a, r %10
+    r8 g'4 g8 g g
+    fis4 fis r
+    r fis fis
+    gis!4. fis8 gis e
+    a4 a,8 h cis4 %15
+    d e2
+    a, r4
+    R2.*8 %25
+    r4 r \mvTr gis'\pE^\solo
+    gis e gis
+    a gis cis
+    cis8([ a)] h4. gis8
+    a4 r r %30
+    r cis cis
+    d d, r
+    r h' h
+    cis a, r
+    a' a a %35
+    a2 gis4
+    gis2 fis4
+    fis( e8[ fis)] gis4
+    a h( h,)
+    e2 r4 %40
+    \mvTr e\fE^\tutti e e
+    e e r
+    r8 e e e e4
+    e4. e8 e e
+    e4 r r %45
+    a a a8 fis
+    fis4 d r
+    e8 d cis h a8. a16
+    d4 h8 h e e
+    cis cis fis4 d %50
+    a' r r
+    a fis d
+    a' r r
+    dis,4. dis8 e4
+    a, e'4. e8 %55
+    a,4 r r
+    R2.*22 %78
+    \mvTr a'4\fE^\tutti a a
+    a a, r %80
+    fis' fis fis
+    fis8 fis fis,4 r
+    d' d d8 d
+    d4 d r
+    h h h' %85
+    gis gis8 gis a a
+    e4 r r
+    R2.*4 %91
+    r8 \mvTr e4\fE^\tuttiE e8 d!4
+    cis8 cis4 cis8 h h
+    a4. a'8 a a
+    a4 r r %95
+    \tempoBeatusB r a2
+    a4 a a
+    g g r
+    f e d
+    a a r %100
+    \tempoBeatusC d8 d16 d d8 d16 d d8 d
+    a a a a a a
+    d d r4 f8 d
+    a4 a r
+    \tempoBeatusD r d d %105
+    d4. d8 d4
+    r d d
+    d d d
+    g,2.
+    d' %110
+    \tempoBeatusE d4. d8 d4
+    fis g a
+    d,4. d8 d4
+    r h' h
+    e,2 fis4 %115
+    fis g2
+    fis4 fis fis
+    gis!4. fis8 gis e
+    a4. a8 a4
+    d, h a %120
+    e'2 e4
+    \tempoBeatusF R2.*6 %127
+    r4 e e
+    fis fis8 e fis gis
+    a4 e \once \tieDashed a~ %130
+    a gis8[ fis gis e]
+    fis2.
+    e2 a4~
+    a gis8[ fis e d]
+    cis2. %135
+    h
+    a4 a a
+    h h8 a h cis
+    d4 a d~
+    d cis a %140
+    e' h \once \tieDashed e~
+    e dis8[ cis dis h]
+    e2.
+    r4 a, \once \tieDashed a'~
+    a gis8[ fis gis e] %145
+    fis2 gis4
+    a cis, a
+    e'2.
+    fis
+    e4 gis a %150
+    cis, d e
+    a, r r
+    R2.
+    cis4( d e)
+    a, r r\fermata \bar "|." %155 finis
+  }
+}
+
+BeatusBassoLyrics = \lyricmode {
+  Be -- a -- tus
+  vir
+  qui ti -- met Do -- mi --
+  num:
+  In man -- da -- tis %5
+  e -- ius vo --
+  let ni --
+  mis.
+  Po -- tens in
+  ter -- ra %10
+  e -- rit se -- men
+  e -- ius:
+  Ge -- ne --
+  ra -- ti -- o re --
+  cto -- rum be -- ne -- %15
+  di -- ce --
+  tur.
+
+  Ex -- %26
+  or -- tum, ex --
+  or -- tum est
+  in te -- ne --
+  bris %30
+  lu -- men
+  re -- ctis,
+  lu -- men
+  re -- ctis:
+  Mi -- se -- ri -- %35
+  cors et
+  mi -- se --
+  ra -- tor
+  et iu --
+  stus. %40
+  Iu -- cun -- dus
+  ho -- mo
+  qui mi -- se -- re --
+  tur et com -- mo --
+  dat, %45
+  dis -- po -- net ser --
+  mo -- nes
+  su -- os in iu -- di -- ci --
+  o: Qui -- a in ae -- ter --
+  num non, non, %50
+  non,
+  non, non, non,
+  non,
+  non, non com --
+  mo -- ve -- bi -- %55
+  tur.
+
+  Dis -- per -- sit %79
+  de -- dit, %80
+  de -- dit pau --
+  pe -- ri -- bus:
+  Iu -- sti -- ti -- a
+  e -- ius
+  ma -- net in %85
+  sae -- cu -- lum sae -- cu --
+  li:
+
+  Cor -- nu e -- %92
+  ius ex -- al -- ta -- bi --
+  tur in glo -- ri --
+  a. %95
+  Pec --
+  ca -- tor vi --
+  de -- bit
+  et i -- ra --
+  sce -- tur, %100
+  den -- ti -- bus, den -- ti -- bus su -- is
+  fre -- met, fre -- met et ta -- be --
+  scet, et ta --
+  be -- scet:
+  De -- si -- %105
+  de -- ri -- um
+  pec -- ca --
+  to -- rum per --
+  i --
+  bit. %110
+  Glo -- ri -- a
+  Pa -- tri et
+  Fi -- li -- o
+  et Spi --
+  ri -- tu -- %115
+  i San --
+  cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o
+  et nunc et %120
+  sem -- per
+
+  et in %128
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a -- %130
+  _
+  _
+  _ _
+  _
+  _ %135
+  _
+  men, et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  _ _ %140
+  _ _ _
+  _
+  men,
+  a -- _
+  _ %145
+  _ _
+  _ _ _
+  men,
+  a --
+  men, a -- _ %150
+  _ _ _
+  men,
+
+  a --
+  men. %155 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

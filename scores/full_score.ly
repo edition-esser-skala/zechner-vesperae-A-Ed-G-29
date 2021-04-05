@@ -83,12 +83,71 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "2"
+  %     title = "C O N F I T E B O R"
+  %   }
+  %   \tocSection "2" "Confitebor"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfiteborViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfiteborViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \ConfiteborTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ConfiteborTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \ConfiteborBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ConfiteborBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ConfiteborOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ConfiteborBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "2"
-      title = "C O N F I T E B O R"
+      number = "3"
+      title = "B E A T U S   V I R"
     }
-    \tocSection "2" "Confitebor"
+    \tocSection "3" "Beatus vir"
     \score {
       <<
         \new StaffGroup <<
@@ -96,50 +155,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfiteborViolinoI
+              \BeatusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfiteborViolinoII
+              \BeatusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \BeatusSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
+          \new Lyrics \lyricsto Soprano \BeatusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \BeatusAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+          \new Lyrics \lyricsto Alto \BeatusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ConfiteborTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \BeatusTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \ConfiteborTenoreLyrics
+          \new Lyrics \lyricsto Tenore \BeatusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ConfiteborBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \BeatusBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \ConfiteborBassoLyrics
+          \new Lyrics \lyricsto Basso \BeatusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ConfiteborOrgano
+            \BeatusOrgano
           }
         >>
-        \new FiguredBass { \ConfiteborBassFigures }
+        \new FiguredBass { \BeatusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

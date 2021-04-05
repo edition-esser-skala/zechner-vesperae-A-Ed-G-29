@@ -159,3 +159,150 @@ ConfiteborViolinoII = {
     gis4 fis e r\fermata \bar "|." %80 finis
   }
 }
+
+BeatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoBeatus
+    R2.
+    a'16\f h cis d e fis gis a gis a gis a
+    a,2 r4
+    a16 h cis d e fis gis a gis a gis a
+    fis d fis a d8 a16 fis d4 %5
+    e16 cis a' cis, e cis a' cis, fis a, d a
+    e' a, cis a d fis, h fis d' e, h' e,
+    cis' h cis d e fis gis a gis a gis a
+    a,2 r4
+    a16 h cis d e fis gis a gis a gis a %10
+    a,2 r4
+    d16 e fis g a h cis d cis d cis d
+    d,8 fis16 a d a fis d d'4
+    h4. a8 h gis
+    e4 e8 d cis e %15
+    fis e16 d h^\critnote a' h, a' h, gis' h, gis'
+    a, h cis d e fis gis a gis a gis a
+    a,2 r4
+    R2.*2 %20
+    d16\p e fis g a h cis d cis d cis d
+    cis2 r4
+    R2.
+    a,2 h4~
+    h cis a %25
+    h16 e, gis e e' h gis e e'4
+    r e,16 gis h e e,4
+    r r a16 cis e a
+    a,4 r r
+    R2. %30
+    fis16 gis a h cis d e fis e fis e fis
+    d2 r4
+    e,16 fis gis a h cis d e d e d e
+    cis2 r4
+    r a'16 e cis a a'4 %35
+    h,2 gis'4
+    a,8 gis fis4 fis
+    h, r r
+    R2.
+    e16\fE fis gis a h cis dis e dis e dis e %40
+    e,2 r4
+    e16 fis gis a h cis dis e dis e dis e
+    e, e gis h e h gis e cis'4\trill
+    h4. gis8 a4
+    gis r r %45
+    cis cis cis8 a
+    d4. cis8 h a
+    gis fis e d cis8. cis16
+    a4 d8 d h h
+    e e cis4 fis8 gis %50
+    a16 h cis d e fis gis a gis a gis a
+    a,4 a a
+    a16 h cis d e fis gis a gis a gis a
+    h, fis' gis a h, fis' gis a gis4\trill
+    cis,16 a' cis, a' h, a' h, a' h, gis' h, gis' %55
+    a,4 r r
+    R2.*4 %60
+    r16 e\pE gis h e h gis e cis'4\trill
+    h r r
+    r r fis
+    eis fis2
+    gis r4 %65
+    R2.
+    fis16 gis a h cis dis eis fis eis fis eis fis
+    fis,2 r4
+    r r16 h d fis h4
+    r16 e,, gis h e4 r %70
+    R2.
+    e,16 fis gis a h cis dis e dis e dis e
+    e,2 r4
+    R2.*4 %77
+    a16\fE h cis d e fis gis a gis a gis a
+    a,2 r4
+    a16 h cis d e fis gis a gis a gis a %80
+    a,2 r4
+    fis16 gis a h cis dis eis fis eis fis eis fis
+    fis,2 r4
+    d'16 e fis g a h cis d cis d cis d
+    d,2 r4 %85
+    d16 h' d, h' d, h' d, h' cis, a' cis, a'
+    h,4 r r
+    R2.*3 %90
+    e,16\fE fis gis a h cis dis e dis e dis e
+    e,8 gis gis gis gis gis
+    a4. a8 fis gis
+    a cis cis cis d4
+    cis16 h cis d e fis gis a gis a gis a %95
+    \tempoBeatusB a,4 c c
+    e, e e
+    e e r
+    a g? f8 g
+    a4 a r %100
+    \tempoBeatusC d16( f) d( f) d( f) d( f) d( f) d( f)
+    cis!( e) cis( e) cis( e) cis( e) cis( e) cis( e)
+    a,( d) a( d) a( d) a( d) a( d) a( d)
+    cis!4 cis r
+    \tempoBeatusD R2.*6 %110
+    \tempoBeatusE fis4. fis8 fis4
+    d d cis
+    d2 d4
+    r d d
+    cis2 cis4 %115
+    ais h2
+    ais4 d d
+    d4. d8 d d
+    cis e e e e,4
+    fis d' cis %120
+    h2.
+    \tempoBeatusF r4 e, e
+    fis fis8 e fis gis
+    a4 e \once \tieDashed a~
+    a gis8 fis gis e %125
+    fis2.
+    e2 \once \tieDashed a4~
+    a gis8 fis e4
+    r a d
+    cis8 h a h cis4 %130
+    r e e
+    d2.
+    R2.*2
+    r4 e, e %135
+    fis fis8 e fis gis
+    a4 e \once \tieDashed a~
+    a g2
+    fis2.^\critnote
+    e4 a2~ %140
+    a4 gis8 fis gis e
+    fis2.
+    gis4 gis gis
+    e2 fis4
+    gis h8 a h gis %145
+    a2 h4
+    e, a a
+    gis4. fis8 gis a
+    fis4 d2
+    e e4 %150
+    e fis gis
+    a cis a
+    h gis a
+    e fis h,
+    cis2 r4\fermata \bar "|." %155 finis
+  }
+}
