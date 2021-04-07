@@ -520,6 +520,131 @@ BeatusBassoLyrics = \lyricmode {
   men. %155 finis
 }
 
+LaudatePueriBassoNotes = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudatePueri
+    R1*11 %11
+    r2 r8 \mvTr d\fE^\tutti d d
+    d8. d16 d4 d8 d d([ cis)]
+    d4 r r8 d4 d8
+    a' a a([ gis)] a fis d e %15
+    a, a' a a a a, r a'~
+    a a g! g fis fis r fis
+    g8. g16 e4 fis d
+    e cis d8 h' g e16 e
+    cis8 d g, a d d' d cis %20
+    d fis,16 fis g8 a d,4 r
+    R1*11 %32
+    \mvTr a'4\fE^\tutti e a r
+    d, a d r8 d
+    g fis e a, d fis4 d8 %35
+    a'4 fis cis d
+    a'8 a fis d a4 \tempoLaudatePueriB r
+    r a'8 a d,8. d16 d4
+    r d2 e4
+    f8. f16 f4 d8. d16 f8 a %40
+    d4 d r8 f,4 f8
+    e1
+    a,
+    \tempoLaudatePueriC d8. d16 fis!8 d a' fis g e
+    d4 r8 d d d r h %45
+    a a r cis d g, a8. a16
+    d8 d4 d8 d8. d16 d8 d~
+    d16 d h8 g a d4 r
+    R1*3 %51
+    r8 \mvTr d\pE^\solo fis a16 a fis8 d e cis
+    d8. d16 d4 h'8 a16([ h)] g8. g16
+    fis8 d([ fis h] gis[ e d' h]
+    cis) h16 a d,8([ e)] a,4 r %55
+    r2 r8 a' h cis
+    d a d, c' h g e cis
+    a' fis d h g' e cis([ a)]
+    fis' d g,([ a)] d4 r
+    r2 \tempoLaudatePueriD \mvTr d4\fE^\tuttiE d8 d %60
+    c2 h4 h
+    h4. h8 e4 e~
+    e d cis! cis8 cis
+    cis2 fis
+    r8 h,4 h8 c2 %65
+    g a4. a8
+    dis4. dis8 e4 e
+    a, a a2
+    d4 \tempoLaudatePueriE r r2
+    R1*6 %75
+    r2 a'4 a
+    gis8 a16 a h8 a gis a h a
+    gis[ a h a] g[ fis e a]
+    fis[ d16 e] fis8[ g] a[ fis g h]
+    a[ fis g h] a[ fis d a']~ %80
+    a4 gis g8([ fis] e4)
+    d8 fis[ d h'] a[ d, cis d]
+    a'[ d, cis d] a'[ fis d a']
+    h[ a] g[ fis16 g] a8[ d,] a4
+    d a d r\fermata \bar "|." %85 finis
+  }
+}
+
+LaudatePueriBassoLyrics = \lyricmode {
+  Sit no -- men %12
+  Do -- mi -- ni be -- ne -- di --
+  ctum, ex hoc
+  nunc et us -- que in sae -- cu -- %15
+  lum. A so -- lis or -- tu us --
+  que ad oc -- ca -- sum, lau --
+  da -- bi -- le no -- men
+  Do -- mi -- ni, lau -- da -- bi -- le
+  no -- men Do -- mi -- ni. Lau -- da -- te %20
+  pu -- e -- ri Do -- mi -- num.
+
+  Quis, quis, quis, %33
+  quis, quis, quis, quis
+  si -- cut Do -- mi -- nus De -- us %35
+  no -- ster, qui in
+  al -- tis ha -- bi -- tat,
+  et hu -- mi -- li -- a,
+  et hu --
+  mi -- li -- a re -- spi -- cit in %40
+  coe -- lo et in
+  ter --
+  ra?
+  Su -- sci -- tans a ter -- ra in -- o --
+  pem, a ter -- ra, a %45
+  ter -- ra, a ter -- ra in -- o --
+  pem et de ster -- co -- re e --
+  ri -- gens pau -- pe -- rem.
+
+  Ut col -- lo -- cet e -- um cum prin -- %52
+  ci -- pi -- bus, cum prin -- ci -- pi --
+  bus po --
+  pu -- li su -- i. %55
+  Qui ha -- bi --
+  ta -- re fa -- cit ste -- ri -- lem in
+  do -- mo, ma -- trem fi -- li -- o --
+  rum lae -- tan -- tem.
+  Glo -- ri -- a %60
+  Pa -- tri et
+  Fi -- li -- o et __
+  Spi -- ri -- tu -- i
+  San -- cto,
+  si -- cut e -- %65
+  rat in prin --
+  ci -- pi -- o et
+  nunc et sem --
+  per
+
+  et in %76
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- _
+  _ _ _
+  _ _ %80
+  men, a --
+  men, a -- _
+  _ _
+  _ _ _ _
+  men, a -- men. %85 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

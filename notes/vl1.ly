@@ -307,6 +307,94 @@ BeatusViolinoI = {
   }
 }
 
+LaudatePueriViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoLaudatePueri
+    r8 d'\fE fis a \appoggiatura g16 fis8 e16 d e8 cis
+    d16 fis a d d, fis a d \tuplet 3/2 8 { \sbOn h a g a g fis \sbOff } g4\trill
+    fis16 ais~ ais h h d,32 e fis16 e32 d e16 gis~ gis a a cis,32 d e16 d32 cis
+    d16 fis~ fis g g h,32 cis d16 cis32 h cis16 e cis a d fis d a
+    e' g e a, fis' a fis a, \tuplet 3/2 8 { \sbOn g'16 e d cis h a g e d cis h a \sbOff } %5
+    fis'16. a32 d16. e32 e4\trill d r
+    R1
+    r8 d4\p cis8 d16 ais'~ ais h h d,32 e fis16 e32 d
+    e16 gis~ gis a a cis,32 d e16 d32 cis d16 fis~ fis g g h,32 cis d16 cis32 h
+    cis16 e cis a d fis d a e' g e a, fis' a fis a, %10
+    \tuplet 3/2 8 { \sbOn g'16 e d cis h a g e d cis h a \sbOff } fis'4 r
+    r2 r8 fis'\f fis fis
+    g8. g16 fis8 a \tuplet 3/2 8 { \sbOn h16 a g a g fis \sbOff } g4\trill
+    fis16 d fis a d a fis d d,8 d'16 e fis e fis g
+    e d e fis d cis d e cis16. e32 a16. h32 h4\trill %15
+    a16 gis32 fis e d cis h a16 gis32 fis e d cis h a16 a' cis e a e d e
+    cis a cis e cis a cis e d a d fis a32 g fis e d cis h a
+    h16 dis~ dis e e g,32 a h16 a32 g a16 \once \tieDashed cis~ cis d d fis,32 g a16 g32 fis
+    g16 h cis d e g, fis e fis8 d' g4
+    \tuplet 3/2 8 { \sbOn g16 fis e fis e d \sbOff } e4\trill d8 d fis a %20
+    \appoggiatura g16 fis8 e16 d e8 cis d4 r
+    R1
+    r8 d\fE fis a \appoggiatura g16 fis8 e16 d e8 cis
+    d4 r r2
+    R1*2 %26
+    r8 a\fE cis e \appoggiatura d16 cis8 h16 a h8 gis
+    a16 cis e a a, cis e a \tuplet 3/2 8 { \sbOn fis e d e d cis \sbOff } d4\trill
+    cis r r2
+    r r8 a4\pE gis8 %30
+    cis16\fE eis~ eis fis fis a,32 h cis16 h32 a h16 dis~ dis e e gis,32 a h16 a32 gis
+    a16 cis~ cis d d fis,32 gis a16 gis32 fis gis16. e32 a16. h32 h4\trill
+    a r \tuplet 3/2 8 { \sbOn a'16 e d cis h a g'! e d cis h a \sbOff }
+    fis'4 r d16 fis a d d, fis a d
+    \tuplet 3/2 8 { \sbOn h a g a g fis \sbOff } g4 fis8 d16. cis32 d8 d %35
+    cis16 e cis a d fis d a e' g e a, fis' a fis a,
+    e' g e a, d fis d a cis e cis a \tempoLaudatePueriB a8 e
+    c'2 b
+    r4 f'2 g4
+    c,2 f4. e8 %40
+    f2 r8 a4 a8
+    gis4 a2 gis4
+    a1
+    \tempoLaudatePueriC fis!8. fis16 fis8 fis e a, h cis
+    d16 d, fis a d d, fis a d a d e fis d fis gis %45
+    \tuplet 3/2 8 { \sbOn a e d cis h a g' e d cis h a \sbOff } fis'16. a,32 d16. e32 e4\trill
+    d8 fis fis fis g4\trill fis16 a h cis
+    d8 d,16 e e4\trill d16 ais'~ ais h h d,32 e fis16 e32 d
+    e16 gis~ gis a a cis,32 d e16 d32 cis d16 fis~ fis g? g h,32 cis d16 cis32 h
+    cis16 e cis a d fis d a e' g e a, fis' a fis a, %50
+    \tuplet 3/2 8 { \sbOn g' e d cis h a g e d cis h a \sbOff } fis'16. a32 d16. e32 e4\trill
+    d r r2
+    d16\p e32 fis g a h cis d4 r8 d,4 cis8
+    d4 r r2
+    r r8 a\f cis e %55
+    \appoggiatura d16 cis8 h16 a h8 gis a4 r
+    r2 h16\p dis~ dis e e g,32 a h16 a32 g
+    a16 cis~ cis d d fis,32 g a16 g32 fis g16 e' e cis cis a a g
+    fis a d e e4\trill r8 d\f fis a
+    \appoggiatura g16 fis8 e16 d e8 cis \tempoLaudatePueriD d2 %60
+    dis dis4 e
+    e4.^\critnote dis8 e4 h
+    h h2 a4
+    gis2 ais
+    r8 d!4 d8 dis2 %65
+    e c
+    h g'~
+    g4 fis e2
+    d4 \tempoLaudatePueriE r r2
+    R1*4 %73
+    d4 d cis8 d e d
+    cis d e d cis d fis e %75
+    d cis h e cis a16^\critnote h cis8 d
+    e cis d fis e cis d fis
+    e cis d fis e d4 cis8
+    d fis,16 g a8 h cis fis e h
+    cis fis e h cis a r4 %80
+    R1
+    d4 d cis8 d e d
+    cis d e d cis d fis e
+    d cis16 h^\critnote e8 d cis d4 cis8
+    d4 cis d r\fermata \bar "|." %85 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

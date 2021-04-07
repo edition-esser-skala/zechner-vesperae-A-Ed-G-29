@@ -553,6 +553,131 @@ BeatusTenoreLyrics = \lyricmode {
   men. %155 finis
 }
 
+LaudatePueriTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudatePueri
+    R1*11 %11
+    r2 r8 \mvTr d\fE^\tutti d d
+    d8. d16 d8 h4 d8 h([ cis)]
+    a4 r r8 a4 a8
+    a cis a([ h)] cis cis h8. h16 %15
+    cis8 e e cis cis a r a~
+    a a a a a a r d
+    a8. a16 g4 g fis
+    fis e fis8 d' d d16 d
+    a8 a h a a d16([ e)] fis8 e %20
+    d d16 d h8 a a4 r
+    R1*7 %28
+    r8 \mvTr a\pE^\solo cis e \appoggiatura d16 cis8 h16 a h8 gis
+    a cis4 e8( fis) e \appoggiatura e d4 %30
+    cis r r2
+    R1
+    \mvTr e4\fE^\tutti^\critnote e e r
+    d cis d r8 a
+    h a h8. a16 a8 a4 a8 %35
+    a4 a a a
+    cis8 cis a a a4 \tempoLaudatePueriB r
+    r c8 c d8. d16 d4
+    r d2 c4
+    c8. c16 c4 d8. d16 d8 cis %40
+    d4 d r8 f4 f8
+    h,!4( c8[ d] e2)
+    e1
+    \tempoLaudatePueriC d8. d16 d8 fis! e fis d e
+    a,4 r8 a a a r h %45
+    cis cis r e a, h a a
+    a a4 a8 h8. h16 d8 d~
+    d16 d d8 h a^\critnote a4 r
+    R1*11 %59
+    r2 \tempoLaudatePueriD \mvTr a4\fE^\tuttiE a8 a %60
+    a2 a4 g8([ a)]
+    h4. h8 h4 h~
+    h h gis a8 h
+    cis2 cis
+    r8 d!4 d8 dis2 %65
+    e c4. c8
+    h4. h8 h4 h
+    a a a2
+    a4 \tempoLaudatePueriE d8 d cis d16 d e8 d
+    cis d e d cis[ d fis e] %70
+    d[ cis h e] cis[ a16 h] cis8[ d]
+    e[ cis d fis] e[ cis d fis]
+    e[ cis] d2 cis4
+    d h a8[ d] g,4
+    a8[ d] g,4 a8 d4 cis8 %75
+    h[ a] gis4 a2
+    R1*2
+    d4 d cis8 d16 d e8 d
+    cis d e[ d] cis[ d fis e] %80
+    d[ cis h e] cis d4 cis8
+    d4 r \once \tieDashed a2~
+    a1
+    d8[ cis] h[ a16 h] cis8 a a4
+    a a a r\fermata \bar "|." %85 finis
+  }
+}
+
+LaudatePueriTenoreLyrics = \lyricmode {
+  Sit no -- men %12
+  Do -- mi -- ni be -- ne -- di --
+  ctum, ex hoc
+  nunc et us -- que in sae -- cu -- %15
+  lum. A so -- lis or -- tu us --
+  que ad oc -- ca -- sum, lau --
+  da -- bi -- le no -- men
+  Do -- mi -- ni, lau -- da -- bi -- le
+  no -- men Do -- mi -- ni. Lau -- da -- te %20
+  pu -- e -- ri Do -- mi -- num.
+
+  Quis si -- cut Do -- mi -- nus De -- us %29
+  no -- ster, De -- us no -- %30
+  ster,
+
+  quis, quis, quis,
+  quis, quis, quis, quis
+  si -- cut Do -- mi -- nus De -- us %35
+  no -- ster, qui in
+  al -- tis ha -- bi -- tat,
+  et hu -- mi -- li -- a,
+  et hu --
+  mi -- li -- a re -- spi -- cit in %40
+  coe -- lo et in
+  ter --
+  ra?
+  Su -- sci -- tans a ter -- ra in -- o --
+  pem, a ter -- ra, a %45
+  ter -- ra, a ter -- ra in -- o --
+  pem et de ster -- co -- re e --
+  ri -- gens pau -- pe -- rem.
+
+  Glo -- ri -- a %60
+  Pa -- tri et
+  Fi -- li -- o et __
+  Spi -- ri -- tu -- i
+  San -- cto,
+  si -- cut e -- %65
+  rat in prin --
+  ci -- pi -- o et
+  nunc et sem --
+  per et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a -- %70
+  _ _ _
+  _ _
+  _ _ _
+  men, a -- _ _
+  _ _ _ _ _ %75
+  _ _ men,
+
+  et in sae -- cu -- la sae -- cu -- %79
+  lo -- rum, a -- _ %80
+  _ _ _ _
+  men, a --
+
+  _ _ _ men, a --
+  men, a -- men. %85 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

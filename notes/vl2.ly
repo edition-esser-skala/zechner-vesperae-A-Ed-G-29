@@ -306,3 +306,94 @@ BeatusViolinoII = {
     cis2 r4\fermata \bar "|." %155 finis
   }
 }
+
+LaudatePueriViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoLaudatePueri
+    r8 d'\fE fis a \appoggiatura g16 fis8 e16 d e8 cis
+    d16 fis a d d, fis a d \tuplet 3/2 8 { \sbOn h a g a g fis \sbOff } g4\trill
+    fis16 ais~ ais h h d,32 e fis16 e32 d e16 gis~ gis a a cis,32 d e16 d32 cis
+    d16 fis~ fis g g h,32 cis d16 cis32 h cis16 e cis a d fis d a
+    e' g e a, fis' a fis a, \tuplet 3/2 8 { \sbOn g'16 e d cis h a g e d cis h a \sbOff } %5
+    fis'16. a32 d16. e32 e4\trill d r
+    R1
+    r8 d4\p cis8 d16 ais'~ ais h h d,32 e fis16 e32 d
+    e16 gis~ gis a a cis,32 d e16 d32 cis d16 \once \tieDashed fis~ fis g g h,32 cis d16 cis32 h
+    cis16 e cis a d fis d a e' g e a, fis' a fis a, %10
+    \tuplet 3/2 8 { \sbOn g'16 e d cis h a g e d cis h a \sbOff } fis'4 r
+    r2 r8 a\f a a
+    h8. h16 a8 d g fis e4
+    d8 fis16 a d a fis d d,8 a' a a
+    cis16 h cis d h a h cis a8 a'4 gis8 %15
+    a16 gis32 fis e d cis h a16 gis32 fis e d cis h a16 a' cis e a e d e
+    cis a cis e cis a cis e d a d fis a32 g fis e d cis h a
+    a8 g16 fis h,8 g' g16 g fis e a,8 fis'
+    fis16 fis e d g,8 g' fis4 h8 cis16 d
+    e8 d4 cis8 d d fis e %20
+    a, d h a16 g fis4 r
+    R1
+    r8 d'\fE fis a \appoggiatura g16 fis8 e16 d e8 cis
+    d4 r r2
+    R1*2 %26
+    r8 a\fE cis e \appoggiatura d16 cis8 h16 a h8 gis
+    a16 cis e a a, cis e a \tuplet 3/2 8 { \sbOn fis e d e d cis \sbOff } d4\trill
+    cis r r2
+    r r8 a4\pE gis8 %30
+    cis16\fE eis~ eis fis fis a,32 h cis16 h32 a h16 dis~ dis e e gis,32 a h16 a32 gis
+    a16 cis~ cis d d fis,32 gis a16 gis32 fis gis16 e a4 gis8
+    a4 r \tuplet 3/2 8 { \sbOn a'16 e d cis h a g'! e d cis h a \sbOff }
+    fis'4 r d16 fis a d d, fis a d
+    d,8 d d cis d a16. g32 a8 fis %35
+    e cis' a d cis16 e cis a d fis d a
+    e' g e a, d fis d a cis e cis a \tempoLaudatePueriB a8 e
+    c'4 e, f2
+    r4 b2 b4
+    a2 d4. cis!8 %40
+    a2 r8 d4 d8
+    d4 c! h!2
+    a1
+    \tempoLaudatePueriC a8. a16 a8 d cis d h a16 g
+    fis d fis a d d, fis a d a d e fis8 d %45
+    cis cis r e a, d4 cis8
+    d^\critnote c c c h16 a h c a8 fis'~
+    fis d4 cis8 d16 ais'~ ais h h d,32 e fis16 e32 d
+    e16 gis~ gis a a cis,32 d e16 d32 cis d16 fis~ fis g? g h,32 cis d16 cis32 h
+    cis16 e cis a d fis d a e' g e a, fis' a fis a, %50
+    \tuplet 3/2 8 { \sbOn g' e d cis h a g e d cis h a \sbOff } fis'16. a32 d16. e32 e4\trill
+    d r r2
+    d16\p e32 fis g a h cis d4 r8 d,4 cis8
+    d4 r r2
+    r r8 a\f cis e %55
+    \appoggiatura d16 cis8 h16 a h8 gis a4 r
+    r2 h16\p \once \tieDashed dis~ dis e e g,32 a h16 a32 g
+    a16 cis~ cis d d fis,32 g a16 g32 fis g16 e' e cis cis a a g
+    fis a d4 cis8 r d\f fis a
+    \appoggiatura g16 fis8 e16 d e8 cis \tempoLaudatePueriD d4 a %60
+    a2 a4 g
+    fis2 e4 g~
+    g gis4. gis8 fis4
+    fis eis e2
+    r8-\critnote fis4 fis8 fis2 %65
+    h h4 a
+    a fis'2 e8 d!
+    cis!4 d2 cis4
+    d \tempoLaudatePueriE r r2
+    R1 %70
+    r2 a4 a
+    gis8 a h a gis a h a
+    gis a h a g fis e a
+    fis d16 e fis8 gis a fis g? h
+    a fis g h a4. a8 %75
+    fis4 gis e a8 fis
+    gis-\critnote e16 a fis gis a8 h a16 gis fis gis a8
+    h a16 gis fis8 a h a g4
+    fis2 r8 a g d
+    e a g d e a fis cis' %80
+    h2 a4 g
+    fis8 d16 e fis8 g a fis g fis16 a-\critnote
+    e8 fis g fis16 g e8 a fis cis'
+    fis, a h a16 h e,8 fis e4
+    fis e fis r\fermata \bar "|." %85 finis
+  }
+}

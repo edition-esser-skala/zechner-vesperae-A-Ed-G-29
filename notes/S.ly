@@ -568,6 +568,131 @@ BeatusSopranoLyrics = \lyricmode {
   men. %155 finis
 }
 
+LaudatePueriSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudatePueri
+    R1*11 %11
+    r2 r8 \mvTr a'\fE^\tutti a a
+    h8. h16 a4 h8 a g4
+    fis r r8 d'4 d8
+    d cis h4 h8 a a gis %15
+    a cis cis cis cis cis r cis~
+    cis cis cis cis d d r a
+    h8. h16 h4 a a
+    g4. g8 fis h h cis16 d
+    e8 d d cis d a d e %20
+    fis e16 d e8 cis d \mvTr d\pE^\solo d^\critnote e
+    fis fis e d e e d cis
+    d4 r r2
+    r8 a a h16([ cis)] d8 fis e d16 e
+    cis8 d r4 r2 %25
+    r8 a( d4.) cis16 cis h4\trill
+    a r r2
+    R1*5 %32
+    \mvTr cis4\fE^\tutti h cis r
+    fis e fis r8 d
+    d d d8. cis16 d8 d4 d8 %35
+    cis4 d e fis
+    e8 e d d cis4 \tempoLaudatePueriB a8 e
+    c'8. c16 c8 c b8. b16 b4
+    r b2 b4
+    a8. a16 a4 d8. d16 d8 e %40
+    f4 f r8 d4 d8
+    d4( c h!2)
+    a1
+    \tempoLaudatePueriC a8. a16 a8 d cis d h cis
+    d4 r8 d d d r d %45
+    cis cis r e d d d cis
+    d^\critnote c4 c8 h8. h16 a8 d~
+    d16^\critnote d d8 d cis d4 r
+    R1*11 %59
+    r2 \tempoLaudatePueriD \mvTr d4\fE^\tuttiE d8 d %60
+    dis2 dis4 e
+    e4. dis8 e4 h~
+    h h h a8 a
+    gis2 ais
+    r8 h4 h8 a2 %65
+    h4 h2 a4
+    a4. a8 g4 h
+    cis! d d( cis)
+    d \tempoLaudatePueriE r r2
+    R1*4 %73
+    d4 d cis8 d16 d e8 d
+    cis d e d cis[ d fis e] %75
+    d[ cis h e] cis[ a16 h] cis8[ d]
+    e[ cis d fis] e[ cis d fis]
+    e[ cis d fis] e d4 cis8
+    d[ fis,16 g] a8[ h] cis a r h(
+    cis) a r h( cis) a r4 %80
+    R1
+    d4. d8 cis d16 d e8 d
+    cis d e d cis[ d fis e]
+    d[ cis16 h] e8[ d] cis d4 cis8
+    d4 cis d r\fermata \bar "|." %85 finis
+  }
+}
+
+LaudatePueriSopranoLyrics = \lyricmode {
+  Sit no -- men %12
+  Do -- mi -- ni be -- ne -- di --
+  ctum, ex hoc
+  nunc et us -- que in sae -- cu -- %15
+  lum. A so -- lis or -- tu us --
+  que ad oc -- ca -- sum, lau --
+  da -- bi -- le no -- men
+  Do -- mi -- ni, lau -- da -- bi -- le
+  no -- men Do -- mi -- ni. Lau -- da -- te %20
+  pu -- e -- ri Do -- mi -- num, ex -- cel -- sus
+  su -- per o -- mnes gen -- tes Do -- mi --
+  nus,
+  et su -- per coe -- los glo -- ri -- a
+  e -- ius, %25
+  glo -- ri -- a e --
+  ius.
+
+  Quis, quis, quis, %33
+  quis, quis, quis, quis
+  si -- cut Do -- mi -- nus De -- us %35
+  no -- ster, qui in
+  al -- tis ha -- bi -- tat, et hu --
+  mi -- li -- a, hu -- mi -- li -- a,
+  et hu --
+  mi -- li -- a re -- spi -- cit in %40
+  coe -- lo et in
+  ter --
+  ra?
+  Su -- sci -- tans a ter -- ra in -- o --
+  pem, a ter -- ra, a %45
+  ter -- ra, a ter -- ra in -- o --
+  pem et de ster -- co -- re e --
+  ri -- gens pau -- pe -- rem.
+
+  Glo -- ri -- a %60
+  Pa -- tri et
+  Fi -- li -- o et __
+  Spi -- ri -- tu -- i
+  San -- cto,
+  si -- cut e -- %65
+  rat in prin --
+  ci -- pi -- o et
+  nunc et sem --
+  per
+
+  et in sae -- cu -- la sae -- cu -- %74
+  lo -- rum, a -- men, a -- %75
+  _ _ _
+  _ _
+  _ _ _ _
+  _ _ _ men, a --
+  men, a -- men, %80
+
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
+  _ _ _ _ _
+  men, a -- men. %85 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

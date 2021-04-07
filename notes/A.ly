@@ -561,6 +561,149 @@ BeatusAltoLyrics = \lyricmode {
   men. %155 finis
 }
 
+LaudatePueriAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoLaudatePueri
+    R1*5 %5
+    r2 r8 \mvTr d\pE^\solo fis a
+    \appoggiatura g16 fis8 e16 d \appoggiatura fis16 e8 \appoggiatura d16 cis8 d a' fis d
+    h' a \appoggiatura a16 g8. g16 fis4 r8 fis
+    e16([ d)] e8 r cis' d,16[( cis)] d8 r h'
+    cis,16([ h)] cis8 r d a'2(\trill %10
+    g)\trill fis8 a fis d
+    g16([ e)] fis([ d)] \appoggiatura fis e8. e16 d8 \mvTr fis\fE^\tutti fis fis
+    g8. g16 fis4 g8 fis e4
+    d r r8 fis4 fis8
+    e e d4 cis8 fis fis e %15
+    e e e e e e r e~
+    e e e e fis fis r fis
+    d8. d16 e4 cis d
+    h e d8 fis g g16 g
+    g8 fis e8. e16 fis8 fis fis a %20
+    a a16 a g8 e fis \mvTr fis\pE^\solo fis g
+    a a g fis g g fis e
+    fis4 r r2
+    R1
+    r8 d d e16([ fis)] g8 h a g16 a %25
+    fis8 d r fis gis a a([ gis)]
+    a4 r r2
+    R1*5 %32
+    \mvTr a4\fE^\tutti gis a r
+    a a a r8 a
+    g a g8. g16 fis8 fis4 fis8 %35
+    e4 fis a a
+    g8 g fis fis e4 \tempoLaudatePueriB r
+    r e8 e f8. f16 f4
+    r f2 g4
+    f8. f16 f4 a8. a16 a8 a %40
+    a4 a r8 a4 a8
+    gis4( a2 gis4)
+    a1
+    \tempoLaudatePueriC fis!8. fis16 fis8 a a a g g
+    fis4 r8 fis fis fis r gis %45
+    a a r g fis e e8. e16
+    fis8 fis4 fis8 g8. g16 fis8 fis~
+    fis16 fis fis8 e8. e16 fis4 r
+    R1*11 %59
+    r2 \tempoLaudatePueriD \mvTr fis4\fE^\tutti fis8 fis %60
+    fis2 fis4 g
+    fis4. fis8 e4 g~
+    g gis eis fis8 fis
+    fis4( eis) e2
+    r8 fis4 fis8 fis2 %65
+    g e4. e8
+    fis4. fis8 fis4 g
+    g fis e2
+    fis4 \tempoLaudatePueriE r r2
+    R1 %70
+    r2 a4 a
+    gis8 a16 a h8 a gis a h a
+    gis[ a h a] g[ fis e a]
+    fis[ d16 e] fis8[ gis] a[ fis g h]
+    a[ fis g h] a4. a8 %75
+    fis4.( e8) e4 a8[ fis]^\critnote
+    gis[ e16 a] fis[ gis a8] h[ a16 gis] fis[ gis a8]
+    h[ a16 gis] fis8[ a] h[ a] g4
+    fis2 e8[ a g^\critnote d]
+    e[ a g d] e a4 a8 %80
+    h2 a4 g
+    fis8[ d16 e] fis8[ g] a[ fis] g[ fis16 a]
+    e8[ fis] g[ fis16 g] e8 a4 a8
+    fis4( g4. fis8 e4)
+    fis e fis r\fermata \bar "|." %85 finis
+  }
+}
+
+LaudatePueriAltoLyrics = \lyricmode {
+  Lau -- da -- te %6
+  pu -- e -- ri Do -- mi -- num: Lau -- da -- te
+  no -- men Do -- mi -- ni, lau --
+  da -- te, lau -- da -- te, lau --
+  da -- te, lau -- da -- %10
+  te, lau -- da -- te
+  no -- men Do -- mi -- ni. Sit no -- men
+  Do -- mi -- ni be -- ne -- di --
+  ctum, ex hoc
+  nunc et us -- que in sae -- cu -- %15
+  lum. A so -- lis or -- tu us --
+  que ad oc -- ca -- sum, lau --
+  da -- bi -- le no -- men
+  Do -- mi -- ni, lau -- da -- bi -- le
+  no -- men Do -- mi -- ni. Lau -- da -- te %20
+  pu -- e -- ri Do -- mi -- num, ex -- cel -- sus
+  su -- per o -- mnes gen -- tes Do -- mi --
+  nus,
+
+  et su -- per coe -- los glo -- ri -- a %25
+  e -- ius, glo -- ri -- a e --
+  ius.
+
+  Quis, quis, quis, %33
+  quis, quis, quis, quis
+  si -- cut Do -- mi -- nus De -- us %35
+  no -- ster, qui in
+  al -- tis ha -- bi -- tat,
+  et hu -- mi -- li -- a,
+  et hu --
+  mi -- li -- a re -- spi -- cit in %40
+  coe -- lo et in
+  ter --
+  ra?
+  Su -- sci -- tans a ter -- ra in -- o --
+  pem, a ter -- ra, a %45
+  ter -- ra, a ter -- ra in -- o --
+  pem et de ster -- co -- re e --
+  ri -- gens pau -- pe -- rem.
+
+  Glo -- ri -- a %60
+  Pa -- tri et
+  Fi -- li -- o et __
+  Spi -- ri -- tu -- i
+  San -- cto,
+  si -- cut e -- %65
+  rat in prin --
+  ci -- pi -- o et
+  nunc et sem --
+  per
+  %70
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- _
+  _ _ _
+  _ _ men, %75
+  a -- men, a --
+  _ _ _ _
+  _ _ _ _
+  men, a --
+  _ _ _ men, %80
+  a -- _ _
+  _ _ _ _
+  _ _ _ _ men,
+  a --
+  men, a -- men. %85 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble
