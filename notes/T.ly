@@ -678,6 +678,115 @@ LaudatePueriTenoreLyrics = \lyricmode {
   men, a -- men. %85 finis
 }
 
+LaudateDominumTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*12 %12
+    r2 r8 \mvTr d\fE^\tutti e4
+    d8 h c4 h8 d d d
+    d d16 d h8 g a a r h %15
+    c4 c h h
+    a a g8. g16 g4
+    a8 h c!8. c16 h4 r
+    R1*2 %20
+    r2 r8 \mvTr d\fE^\tuttiE d4
+    d8 d d4 d r
+    R1*6 %28
+    r4 \tempoLaudateDominumB \mvTr d2\fE^\tuttiE d8 d
+    d2 e %30
+    r4 g, g4. g8
+    a4 r r2
+    r4 d( c) a
+    h c8 c d2
+    c4 r r2 %35
+    R1*4 \noBreak
+    R1\fermata \bar "||" %40
+    \tempoLaudateDominumC R1*7 %47
+    r2 d4 d
+    e8. e16 cis4 d8 d d d
+    e4 cis d8[ h a d] %50
+    h[ g16 a] h8[ e] c[ a d, d']
+    h g r e' c[ a d, d']~
+    d[ e f d] e4 c
+    a h g r
+    R1 %55
+    r2 c4 c
+    d8. d16 h4 c8 c c c
+    d4( h) c r
+    R1
+    e4 e fis8. fis16 dis4 %60
+    e8 e e e fis4 dis
+    e8[ d] c[ h16 c] d8[ c] h[ a16 h]
+    g[ a h8] c4 h8[ d g, h]
+    c4 a16[ g a fis] d'8 h4 d8
+    e4 a, h8[ a] g4 %65
+    r d'( g, a)
+    d r h( e
+    d c) h r
+    r8 d([ h g] c4) a
+    r8 d[( h g] c4) a %70
+    h8[( a h cis]) a4 d~
+    d c2 h8[ e]
+    c[ a d, d'] h[ g] c4
+    a h g a~
+    a h8[ c] d4. c8 %75
+    h4 r r r8 \once \tieDashed e~
+    e4 d d r\fermata \bar "|." %77 finis
+  }
+}
+
+LaudateDominumTenoreLyrics = \lyricmode {
+  Lau -- da -- %13
+  te, lau -- da -- te, lau -- da -- te
+  Do -- mi -- num, o -- mnes gen -- tes, lau -- %15
+  da -- te e -- um,
+  o -- mnes po -- pu -- li,
+  o -- mnes po -- pu -- li.
+
+  Lau -- da -- %21
+  te, lau -- da -- te.
+
+  Glo -- ri -- a %29
+  Pa -- tri %30
+  et Fi -- li --
+  o
+  et __ Spi --
+  ri -- tu -- i San --
+  cto. %35
+
+  Et in %48
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men, a -- %50
+  _ _ _
+  _ men, a -- _
+  _ _
+  _ _ men,
+  %55
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men,
+
+  et in sae -- cu -- la %60
+  sae -- cu -- lo -- rum, a -- men,
+  a -- _ _ _
+  _ _ _
+  _ _ _ _ _
+  _ _ _ men, %65
+  a --
+  men, a --
+  men,
+  a -- men,
+  a -- men, %70
+  a -- men, a --
+  _ _
+  _ _ _
+  _ _ _ _
+  _ _ _ %75
+  men, a --
+  _ men. %77 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

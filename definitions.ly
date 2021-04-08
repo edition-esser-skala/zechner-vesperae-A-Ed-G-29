@@ -691,6 +691,9 @@ tempoLaudatePueri = \tempoMarkup "Allegro"
   tempoLaudatePueriC = \tempoMarkup "Allegro"
   tempoLaudatePueriD = \tempoMarkup "Adagio"
   tempoLaudatePueriE = \tempoMarkup "Allegro"
+tempoLaudateDominum = \tempoMarkup "Allegro"
+  tempoLaudateDominumB = \tempoMarkup "Adagio"
+  tempoLaudateDominumC = \tempoMarkup "Presto"
 
 
 \include "notes/clno1.ly"

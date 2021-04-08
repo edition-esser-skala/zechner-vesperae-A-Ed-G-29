@@ -645,6 +645,117 @@ LaudatePueriBassoLyrics = \lyricmode {
   men, a -- men. %85 finis
 }
 
+LaudateDominumBassoNotes = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*12 %12
+    r2 r8 \mvTr g'\fE^\tutti g4
+    g8 g g4 g8 g g fis
+    g fis16 fis g8 e d d r g %15
+    a4 fis g e
+    fis d e8. e16 c4
+    c8 h e fis g4 r
+    R1*2 %20
+    r2 r8 \mvTr d\fE^\tuttiE d4
+    d8 d d4 d r
+    R1*6 %28
+    r4 \tempoLaudateDominumB \mvTr g2\fE^\tuttiE g8 g
+    f2 e %30
+    r4 e es4. es8
+    d4 r r2
+    r4 h( c) d
+    g, c8 c c4( h)
+    c r r2 %35
+    R1*4 \noBreak
+    R1\fermata \bar "||" %40
+    \tempoLaudateDominumC R1*5 %45
+    g'4 g a8. a16 fis4
+    g8 g g g a4 fis
+    g8[ fis e a] fis[ d16 e] fis8[ h]
+    g[ e a, a'] fis d r h'
+    g[ e a, a'] fis g4 fis8 %50
+    g4 r r2
+    r8 h,[ g h] c4. d16[ c]
+    h8 c4 h8 e4 a
+    f8[ d g, g'] e c r4
+    R1 %55
+    r2 a'4 a
+    h8. h16 gis4 a8 a a a
+    h4 gis a4. h8
+    c[ g] c4 h4. a8
+    g![ fis] e4 a, h %60
+    e r8 c' a[ fis h, h']
+    g[ e a g] fis[ e16 fis] g8[ fis]
+    e16[ fis] g4 fis8 g4 r8 e
+    c[ h16 a] d8[ c] h g4 h8
+    c[ h16 a] d8[ c] h d4 cis8 %65
+    d2 r
+    r8 d[ fis h] g[ e a, a']
+    fis g4 fis8 h4 r
+    g g a8. a16 fis4
+    g8 g g g a4 fis %70
+    g8[( fis e a] fis) d r4
+    d1~
+    d~
+    d~
+    d %75
+    g,4 r r r8 e'(
+    c4 d) g, r\fermata \bar "|." %77 finis
+  }
+}
+
+LaudateDominumBassoLyrics = \lyricmode {
+  Lau -- da -- %13
+  te, lau -- da -- te, lau -- da -- te
+  Do -- mi -- num, o -- mnes gen -- tes, lau -- %15
+  da -- te e -- um,
+  o -- mnes po -- pu -- li,
+  o -- mnes po -- pu -- li.
+
+  Lau -- da -- %21
+  te, lau -- da -- te.
+
+  Glo -- ri -- a %29
+  Pa -- tri %30
+  et Fi -- li --
+  o
+  et __ Spi --
+  ri -- tu -- i San --
+  cto. %35
+
+  Et in sae -- cu -- la %46
+  sae -- cu -- lo -- rum, a -- men,
+  a -- _ _
+  _ _ men, a --
+  _ _ _ _ %50
+  men,
+  a -- _ _
+  _ _ _ _ _
+  _ _ men,
+  %55
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men, a -- _
+  _ _ _ _
+  _ _ _ _ %60
+  men, a -- _
+  _ _ _
+  _ _ _ men, a --
+  _ _ _ _ _
+  _ _ _ _ _ %65
+  men,
+  a -- _
+  _ _ _ men,
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, a -- men, %70
+  a -- men,
+  a --
+
+  men, a -- %76
+  men. %77 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

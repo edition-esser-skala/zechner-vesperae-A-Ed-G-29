@@ -201,12 +201,71 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "4"
+  %     title = "L A U D A T E   P U E R I"
+  %   }
+  %   \tocSection "4" "Laudate pueri"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LaudatePueriViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LaudatePueriViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \LaudatePueriSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \LaudatePueriSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \LaudatePueriAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \LaudatePueriAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \LaudatePueriTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \LaudatePueriTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \LaudatePueriBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \LaudatePueriBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \LaudatePueriOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \LaudatePueriBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "4"
-      title = "L A U D A T E   P U E R I"
+      number = "5"
+      title = "L A U D A T E   D O M I N U M"
     }
-    \tocSection "4" "Laudate pueri"
+    \tocSection "5" "Laudate Dominum"
     \score {
       <<
         \new StaffGroup <<
@@ -214,47 +273,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LaudatePueriViolinoI
+              \LaudateDominumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LaudatePueriViolinoII
+              \LaudateDominumViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \LaudatePueriSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \LaudateDominumSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \LaudatePueriSopranoLyrics
+          \new Lyrics \lyricsto Soprano \LaudateDominumSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \LaudatePueriAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \LaudateDominumAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \LaudatePueriAltoLyrics
+          \new Lyrics \lyricsto Alto \LaudateDominumAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \LaudatePueriTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \LaudateDominumTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \LaudatePueriTenoreLyrics
+          \new Lyrics \lyricsto Tenore \LaudateDominumTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \LaudatePueriBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \LaudateDominumBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \LaudatePueriBassoLyrics
+          \new Lyrics \lyricsto Basso \LaudateDominumBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \LaudatePueriOrgano
+            \LaudateDominumOrgano
           }
         >>
-        \new FiguredBass { \LaudatePueriBassFigures }
+        \new FiguredBass { \LaudateDominumBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 80 }

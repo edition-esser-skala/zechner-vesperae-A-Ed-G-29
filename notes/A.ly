@@ -704,6 +704,126 @@ LaudatePueriAltoLyrics = \lyricmode {
   men, a -- men. %85 finis
 }
 
+LaudateDominumAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*12 %12
+    r2 r8 \mvTr g'\fE^\tuttiE g4
+    g8 g g4 g8 g g a
+    g a16 a g8 g fis fis r h %15
+    h([ a16 g)] a4 a8([ g16 fis)] g4
+    g8([ fis16 e)] fis4 fis8 e16([ d)] e4
+    fis8 g e d d4 r
+    R1*2 %20
+    r2 r8 \mvTr fis\fE^\tuttiE g4
+    fis8 fis g4 fis r
+    R1*6 %28
+    r4 \tempoLaudateDominumB \mvTr g2\fE^\tuttiE g8 g
+    g2 g %30
+    r4 g g4. g8
+    fis!4 fis( g) a
+    d, g8 g g4( f)
+    f e( f2)
+    e4 r r2 %35
+    R1*4 \noBreak
+    R1\fermata \bar "||" %40
+    \tempoLaudateDominumC g4 g a8. a16 fis4 \noBreak
+    g8 g g g a4 fis
+    g8[ fis e a] fis[ d16 e] fis8[ h]
+    g[ e a, a'] fis d r h'
+    g[ e a, a'] fis g4 fis8 %45
+    g4 r8 g e4 a
+    d, e2 a4
+    d,4. cis8 d2
+    R1*2 %50
+    g4 g a8. a16 fis4
+    g8 g g g a4 fis
+    g8[ e^\critnote d g] g4 e
+    f d r8 e[ c a']
+    f[ d g, g'] e4 f8[ e] %55
+    d4 e8[ d] c[ h] a a'(
+    fis!4) e r r8 a
+    fis!4 e2 c8[ d]
+    e g4 a8 h[ a16 g] fis4
+    g8[ a h c] a[ fis h, fis'] %60
+    g[ fis] e4 fis2
+    g4 r r2
+    r g4 g
+    a8. a16 fis4 g8 g g g
+    a4 fis g8[ fis e a] %65
+    fis[ d fis h] g[ e a, a']
+    fis d r fis g4 e8[ g]
+    a[ d, e \once \tieDashed a]~ a[ g] e16[ d e fis]
+    g8[ d] e4 e a
+    d, g e a %70
+    d, g8[ e] fis[ a] h4
+    g8[ e a, a'] fis[ d] g4~
+    g a fis g
+    e d4. h8[ e a]
+    fis4 g2 fis4 %75
+    g8 g,[ a h] c[ d e g]
+    a4 fis g r\fermata \bar "|." %77 finis
+  }
+}
+
+LaudateDominumAltoLyrics = \lyricmode {
+  Lau -- da -- %13
+  te, lau -- da -- te, lau -- da -- te
+  Do -- mi -- num, o -- mnes gen -- tes, lau -- %15
+  da -- te e -- um,
+  o -- mnes po -- pu -- li,
+  o -- mnes po -- pu -- li.
+
+  Lau -- da -- %21
+  te, lau -- da -- te.
+
+  Glo -- ri -- a %29
+  Pa -- tri %30
+  et Fi -- li --
+  o et __ Spi --
+  ri -- tu -- i San --
+  cto, San --
+  cto. %35
+
+  Et in sae -- cu -- la %41
+  sae -- cu -- lo -- rum, a -- men,
+  a -- _ _
+  _ _ men, a --
+  _ _ _ _ %45
+  men, a -- _ _
+  _ _ _
+  _ _ men,
+
+  et in sae -- cu -- la %51
+  sae -- cu -- lo -- rum, a -- men,
+  a -- _ _
+  _ men, a --
+  _ _ _ %55
+  _ _ _ men, a --
+  men, a --
+  _ _ _
+  _ _ _ _ _
+  _ _ %60
+  _ _ _
+  men,
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men, a -- %65
+  _ _
+  _ men, a -- _ _
+  _ _
+  _ men, a -- _
+  _ _ _ _ %70
+  _ _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %75
+  men, a -- _
+  _ _ men. %77 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -397,3 +397,85 @@ LaudatePueriViolinoII = {
     fis e fis r\fermata \bar "|." %85 finis
   }
 }
+
+LaudateDominumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoLaudateDominum
+    R1
+    r2 r16 h''\fE h h \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff }
+    c a' a a \tuplet 3/2 8 { \sbOn a g fis e d c h a g e' d c h a g g' fis e }
+    \tuplet 3/2 8 { d c h g' fis e d c h c h a h a g c h a } d8 g,
+    \tuplet 3/2 8 { c16 h a h a g \sbOff } a4\trill g r %5
+    R1
+    \tuplet 3/2 8 { \sbOn d'16 c h g' fis e d c h c h a \sbOff } h4 r16 h'\p a g
+    a8 a, r16 a' g fis g8 g, r16 g' fis e
+    fis8 fis,^\critnote r16 fis' e d e8 e, r4
+    R1*2 %11
+    r8 g\f d' d h16 g h c d8 g,
+    \tuplet 3/2 8 { \sbOn a16 h c h c d \sbOff } c4\trill h8 h c16 e c e
+    h d c d e c d e d8 d d d
+    d d d cis d4 r8 \once \tieDashed h~ %15
+    h16 c a g a4~ a16 h g fis g4~
+    g16 a fis e fis4~ fis16 g e d e4\trill
+    d8 d g a \tuplet 3/2 8 { \sbOn h16 a g g' fis e d c h c h a \sbOff }
+    g4 r r2
+    a4\p a a a %20
+    r2 r8 a\fE h16 g a h
+    a8 fis g16 e fis g \tuplet 3/2 8 { \sbOn fis16 e d d' cis h a g fis g fis e \sbOff }
+    fis4 r d'2\pE
+    c h
+    a4 r r2 %25
+    a8 fis g a h4 a
+    g r8 h~\fE h16 c a g a4
+    \tuplet 3/2 8 { h16 a g c h a } d8 g, \tuplet 3/2 8 { c16 h a h a g \sbOff } a4\trill
+    g \tempoLaudateDominumB h2 h4
+    h2 c %30
+    r4 c cis2
+    d4 fis, g a
+    d, g2 f4~
+    f e d2
+    c8 c c\pE c g' g g g %35
+    e e fis fis g g, g g
+    d' d d d e e e e
+    a, a a a d d d d
+    d d d d d d cis cis \noBreak
+    d1\fermata \bar "||" %40
+    \tempoLaudateDominumC g4\fE g a8. a16 fis4 \noBreak
+    g8 g g g a4 fis
+    g8 fis e a fis d16 e fis8 h
+    g e a, a' fis d r h'
+    g e a, a' fis g4 fis8 %45
+    g4 r8 g e4 a
+    d, e2 a4
+    d,4. cis8 d2
+    R1*2 %50
+    g4 g a8. a16 fis4
+    g8 g g g a4 fis
+    g8 e d g g4 e
+    f d r8 e c a'
+    f d g, g' e4 f8 e %55
+    d4 e8 d c h a a'
+    fis!4 e r r8 a
+    fis!4 e2 c8 d
+    e g4 a8 h a16 g fis4
+    g8 a h c a fis h, fis' %60
+    g fis e4 fis2
+    g4 r r2
+    r g4 g
+    a8. a16 fis4 g8 g g g
+    a4 fis g8 fis e a %65
+    fis d fis h g e a, a'
+    fis d r fis g4 e8 g
+    a d, e a~ a g e16 d e fis
+    g8 d e2 a4
+    d, g e a %70
+    d, g8 e fis a h4
+    g8 e a, a' fis d g4~
+    g a fis g
+    e d4. h8 e a
+    fis4 g2 fis4 %75
+    g8 g, a h c d e g
+    a4 fis g r\fermata \bar "|." %77 finis
+  }
+}

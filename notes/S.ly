@@ -693,6 +693,164 @@ LaudatePueriSopranoLyrics = \lyricmode {
   men, a -- men. %85 finis
 }
 
+LaudateDominumSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoLaudateDominum
+    r8 \mvTr g'\pE^\solo d' d \appoggiatura c16 h8. a16 g4
+    a8 h c4\trill h r
+    R1*2
+    r2 r8 g d' d %5
+    \appoggiatura c16 h8. a16 g4 a8 h c4\trill
+    h r r8 h e4~
+    e16[ fis d cis] d4~ d16[ e c h] c4~
+    c16[ d h a] h4 a8 fis g a16([ h)]
+    c8 h16([ a)] h4 e8 d c h %10
+    a g16([ fis)] g8 c4 h8 a8. a16
+    g4 r r2
+    r r8 \mvTr h\fE^\tutti c4
+    h8 d e4 d8 h h a
+    h a16 a h8 cis d d r d %15
+    c4 d h e
+    c d h8. h16 c4
+    a8 d c h16([ a)] g4 r
+    \mvTr h8\pE^\solo h16 h e8 d cis a fis'4
+    fis8 e16([ d)] e8 e e d16([ cis)] d4~ %20
+    d8 e16 h cis4\trillE d8 \mvTr a\fE^\tutti h4
+    a8 a h4 a r
+    r8 \mvTr a\pE^\solo a h16 c d4. c16[ h]
+    c4. h16[ a] h4. a16[ g]
+    a8[ h c d] e[ d c] h16 c %25
+    d4 c h8 a a4\trill
+    g r r2
+    R1
+    r4 \tempoLaudateDominumB \mvTr h2\fE^\tutti h8 h
+    h2 c %30
+    r4 c cis4. cis8
+    d4 d2 c4
+    c h8 h a2
+    g4 e'( a, h)
+    g \mvTr c8\pE^\solo c c4 h %35
+    h a a8 g16([ fis)] g8 h
+    a4 h c2(
+    cis) d4 a
+    h a g2\trill \noBreak
+    fis r\fermata \bar "||" %40
+    \tempoLaudateDominumC R1*2
+    r2 d'4 d
+    e8. e16 cis4 d8 d d d
+    e4 cis d8[ h a d] %45
+    h[ g16 a] h8[ e] c[ a d, d']
+    h g r e' c[ a d, d']
+    h[ a] g4 fis8[ g a fis]
+    h[ g] e[ d16 e] fis8[ a d fis]
+    g4 e d c! %50
+    h8.[ c16] d8[ h] c4 a
+    h2 r
+    r c4 c
+    d8. d16 h4 c8 c c c
+    d4 h c8[ h] a4~ %55
+    a8[ gis16 fis] gis4 a8 a[ c f]
+    d[ h e, e'] c a r f'
+    d[ h e, e'] c[ a] f'4~
+    f e2 dis4
+    e2 r8 c[ h a] %60
+    g[ a h g] fis[ g] a[ h16 a]
+    g8[ a16 h] c8[ h] a[ g16 a] h4
+    c8[ h] a4 h2
+    R1*2 %65
+    d4 d e8. e16 cis4
+    d8 d d d e4 cis
+    d8[ h a \once \tieDashed d]~ d[ g,] c4~
+    c8[ h g e'] c[ a d, d']
+    h g r e' c[ a d, d'] %70
+    h d4 cis8 d4 r
+    r2 r4 g
+    e8[ c fis, fis'] d[ h e, e']
+    c[ a d, d'] h[ g] \once \tieDashed c4~
+    c h a2 %75
+    g8 h[ c d] e[ fis g h,]
+    c4 a g r\fermata \bar "|." %77 finis
+  }
+}
+
+LaudateDominumSopranoLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi -- num,
+  o -- mnes gen -- tes.
+
+  Lau -- da -- te %5
+  Do -- mi -- num, o -- mnes gen --
+  tes, lau -- da --
+  _ _
+  te e -- um, o -- mnes
+  po -- pu -- li, o -- mnes, o -- mnes %10
+  po -- pu -- li, o -- mnes po -- pu --
+  li.
+  Lau -- da --
+  te, lau -- da -- te, lau -- da -- te
+  Do -- mi -- num, o -- mnes gen -- tes, lau -- %15
+  da -- te e -- um,
+  o -- mnes po -- pu -- li,
+  o -- mnes po -- pu -- li.
+  Quo -- ni -- am con -- fir -- ma -- ta est
+  su -- per nos mi -- se -- ri -- cor -- %20
+  di -- a e -- ius, lau -- da --
+  te, lau -- da -- te,
+  et ve -- ri -- tas Do -- _
+  _ _ _ _
+  _ _ mi -- ni %25
+  ma -- net in ae -- ter --
+  num.
+
+  Glo -- ri -- a
+  Pa -- tri %30
+  et Fi -- li --
+  o et Spi --
+  ri -- tu -- i San --
+  cto, San --
+  cto, si -- cut e -- rat %35
+  in prin -- ci -- pi -- o et
+  nunc et sem --
+  per, et
+  nunc et sem --
+  per. %40
+
+  Et in %43
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men, a -- %45
+  _ _ _
+  _ men, a -- _
+  _ _ _
+  _ _ _
+  _ _ _ _ %50
+  _ _ _ _
+  men,
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men, a -- _ %55
+  _ men, a --
+  _ _ men, a --
+  _ _ _
+  _ _
+  men, a -- %60
+  _ _ _
+  _ _ _ _
+  _ _ men,
+
+  et in sae -- cu -- la %66
+  sae -- cu -- lo -- rum, a -- men,
+  a -- _
+  _
+  _ men, a -- _ %70
+  _ _ _ men,
+  a --
+  _ _
+  _ _ _
+  _ _ %75
+  men, a -- _
+  _ _ men. %77 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

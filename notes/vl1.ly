@@ -395,6 +395,87 @@ LaudatePueriViolinoI = {
   }
 }
 
+LaudateDominumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoLaudateDominum
+    R1
+    r2 r16 h''\fE h h \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff }
+    c a' a a \tuplet 3/2 8 { \sbOn a g fis e d c h a g e' d c h a g g' fis e }
+    \tuplet 3/2 8 { d c h g' fis e d c h c h a h a g c h a } d8 g,
+    \tuplet 3/2 8 { c16 h a h a g \sbOff } a4\trill g r %5
+    R1
+    \tuplet 3/2 8 { \sbOn d'16 c h g' fis e d c h c h a \sbOff } h4 r16 h'\p a g
+    a8 a, r16 a' g fis g8 g, r16 g' fis e
+    fis8 fis,^\critnote r16 fis' e d e8 e, r4
+    R1*2 %11
+    r8 g\f d' d h16 g h c d8 g,
+    \tuplet 3/2 8 { \sbOn a16 h c h c d \sbOff } c4\trill h16 d g fis e g e g
+    \tuplet 3/2 8 { \sbOn d e fis g a h \sbOff } c4 h8 h h a
+    h16 d, a' d, h' d, g e fis h h h \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff } %15
+    c! a' a a \tuplet 3/2 8 { \sbOn a g fis e d c \sbOff } h g' g g \tuplet 3/2 8 { \sbOn g fis e d c h \sbOff }
+    a fis' fis fis \tuplet 3/2 8 { \sbOn fis e d c h a \sbOff } g e' e e \tuplet 3/2 8 { \sbOn e d c h a g \sbOff }
+    fis8 g c c \tuplet 3/2 8 { \sbOn h16 a g g' fis e d c h c h a \sbOff }
+    h4 r r2
+    g'\p fis %20
+    r r8 fis\fE g16 e fis g
+    fis8 a, h16 g a h \tuplet 3/2 8 { \sbOn a g fis d' cis h a g fis g fis e \sbOff }
+    fis4 r r h'~\p
+    h16 h a g a4~ a16 a g fis g4
+    fis8 g a h e,4 r %25
+    r a a16 h, g'8 a, fis'
+    g,16 h'\f h h \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff } c a' a a \tuplet 3/2 8 { \sbOn a g fis e d c }
+    \tuplet 3/2 8 { h a g c h a } d8 g, \tuplet 3/2 8 { c16 h a h a g \sbOff } a4\trill
+    g \tempoLaudateDominumB d'2 d4
+    g2 g %30
+    r4 g4. g8 g4
+    fis d2 c!4~
+    c h a2
+    h4 c f2
+    e8 e e\p e d d d d %35
+    c c c c h h h g
+    fis fis g g g g g g
+    g g g g fis fis fis fis
+    g g fis fis e e e e \noBreak
+    d1\fermata \bar "||" %40
+    \tempoLaudateDominumC R1*2
+    r2 d'4\f d
+    e8. e16 cis4 d8 d d d
+    e4 cis d8 h a d %45
+    h g16 a h8 e c a d, d'
+    h g r e' c a d, d'
+    h a g4 fis8 g a fis
+    h g e d16 e fis8 a d fis
+    g4 e d c! %50
+    h8. c16 d8 h c4 a
+    h2 r
+    r c4 c
+    d8. d16 h4 c8 c c c
+    d4 h c8 h a4~ %55
+    a8 gis16 fis gis4 a8 a c f
+    d h e, e' c a r f'
+    d h e, e' c a f'4~
+    f e2 dis4
+    e2 r8 c h a %60
+    g a h g fis g a h16 a
+    g8 a16 h c8 h a g16 a h4
+    c8 h a4 h2
+    R1*2 %65
+    d4 d e8. e16 cis4
+    d8 d d d e4 cis
+    d8 h a d~ d g, c4~
+    c8 h g e' c a d, d'
+    h g r e' c a d, d' %70
+    h d4 cis8 d4 r
+    r2 r4 g
+    e8 c fis, fis' d h e, e'
+    c a d, d' h g c4~
+    c h a2 %75
+    g8 h c d e fis g h,
+    c4 a g r\fermata \bar "|." %77 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

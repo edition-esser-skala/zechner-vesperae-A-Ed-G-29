@@ -849,6 +849,169 @@ LaudatePueriBassFigures = \figuremode {
   r %85 finis
 }
 
+LaudateDominumOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoLaudateDominum
+    \mvTr g8\pE-\solo g' fis d r g16 fis e d c h
+    c8 h a d g,4 r8 g'\fE
+    a4 r8 fis g4 r8 c
+    h g r fis g a h g
+    a g c, d g, g'\pE fis d %5
+    r g16 fis e d c h c8 h a d
+    g,4\fE r8 d' g4 r16 g\pE fis e
+    fis4~ fis16 fis e d e4~ e16 e d c
+    d4~ d16 d c h c8 a h g
+    a d g, a16 h c8 h e d %10
+    c4 h8 a16 g fis8 g c d
+    g,\fE g' fis d g g, r h
+    c d e fis g g-\tutti g g
+    g g g g g g g fis
+    g fis g e d d, r g' %15
+    a a, r fis' g g, r e'
+    fis fis, r d' e e, r c'
+    c h e fis g g, r d'
+    \mvTr g\pE-\solo g, r g' a a fis d
+    e4 cis d8 d fis a %20
+    h fis16 g a8 a, d \mvTr d\fE-\tutti d d
+    d d d d d d, r a'
+    d \mvTr d'\pE-\solo d c! h4 r8 g
+    a a, r fis' g g, r h16 g
+    d'4 r8 h c d e a %25
+    fis d e fis g e c d
+    g,4 r8 g'\fE a a, r fis'
+    g g,16 a h8 e a, g c d
+    g,4 \tempoLaudateDominumB g'2-\tutti g4
+    f2 e %30
+    r4 e es2
+    d4 \clef treble << { d''2 c!4~ c } \\ { fis, g a d, } >>
+    \clef bass h, c d
+    g, c2 h4
+    c r r2 %35
+    R1*4 \noBreak
+    R1\fermata \bar "||" %40
+    \clef treble \tempoLaudateDominumC g''4 g a8. a16 fis4 \noBreak
+    g8 g g g a4 fis
+    << {
+      s2 d'4 d
+      e8. e16 cis4 d8 d d d
+      e4 cis d8 h a d %45
+    } \\ {
+      g,8 fis e a fis d16 e fis8 h
+      g e a, a' fis d r h'
+      g e a, a' fis g4 fis8 %45
+    } >>
+    \clef bass g,4 g a8. a16 fis4
+    g8 g g g a4 fis
+    g8 fis e a fis d16 e fis8 h
+    g e a, a' fis d r h'
+    g e a, a' fis g4 fis8 %50
+    g4 \clef "treble_8" h8 e c a d, d'
+    h \clef bass h,[ g h] c4. d16 c
+    h8 c4 h8 e4 a
+    f8 d g, g' e c \clef treble << {
+      c''8 c
+      d4 h c8 h a4~ %55
+      a8 gis16 fis gis4
+    } \\ {
+      c,8 a'
+      f d g, g' e4 f8 e %55
+      d4 e8 d
+    } >> \clef bass a4 a
+    h8. h16 gis4 a8 a a a
+    h4 gis a4. h8
+    c g c4 h4. a8
+    g! fis e4 a, h %60
+    e r8 c' a fis h, h'
+    g e a g fis e16 fis g8 fis
+    e16 fis g4 fis8 g4 r8 e
+    c h16 a d8 c h g4 h8
+    c h16 a d8 c h d4 cis8 %65
+    d2 \clef "treble_8" g4 a
+    d8 \clef bass d,[ fis h] g e a, a'
+    fis g4 fis8 h4 \clef treble << { c' } \\ { e,16 d e fis } >>
+    \clef bass g,4 g a8. a16 fis4
+    g8 g g g a4 fis %70
+    g8 fis e a fis d r4
+    d1~-\tasto
+    d~
+    d~
+    d %75
+    g,4 r r r8 e'
+    c4 d g, r\fermata \bar "|." %77 finis
+  }
+}
+
+LaudateDominumBassFigures = \figuremode {
+  r4 <[6]>2.
+  <6>8 q <7> q r2
+  r4. <[6]>8 r2
+  \bo <[6]>4. <6>4 q8 \bc <[6]>4
+  r4 <6 5>2 <[6]>4 %5
+  r2 <6>8 q <7> q
+  r2. <6>4
+  <7> <6> <7> <6>
+  <7> <6> q8 \bo <[6]> \bc q4
+  <7>8 q r4 r8 <[6]> <6> q %10
+  q4 q <5> <6 5>
+  r4 \bo <[6]>2 r8 \bc q
+  <6> q q <\t> r4 <[6 4]>
+  <5 3> <6 4> <5 3>4. <[6]>8
+  r q4 <6\\>8 r2 %15
+  <9>8 <8>4 <6 5>8 <9> <8>4.
+  \bo <9 [5+]>8 \bc <8 [\t]>4. <9>8 <8>4.
+  <4 2>8 <6> <6!> <\t> r4. <7>8
+  r4 <6>8 <[5]> <_+>4 <[6]>
+  <9>8 <8> <[6 5]>4 <9>8 <8>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff %20
+  r4 <4>8 <_+> <[5 3]>4 <6 4>
+  <5 3> \bo <[6 4]> \bc <[5 3]>4. <_+>8
+  r1
+  <9>8 <8>4 <[6]>8 <9> <8>4 <[6]>8
+  r4. \bo <[6]> \bc q4 %25
+  \bo q <6>8 \bc <[\t]> <9> <[5]> <6 5>4
+  r2 <9>8 <8>4 <[6]>8
+  r4 <[6]> <6> <6 5>
+  r1
+  <4 2>2 <6> %30
+  r4 q <6\\ [5-]>2
+  <_+>1
+  r4 <6> <6 5> <_!>
+  \bo <[7 \l]> \bc <[5 3]> <4! 2> <[6 5!]>
+  r1*11 %45
+  <[5]>4 <6>2 <[6]>4
+  <5> <6>2 <[6]>4
+  r8 <6> <7> <7 _+> <6>2
+  <6>4 <_+> <6>2
+  <6>4 <_+> <6>8 r <4! 2> <\t \t> %50
+  r4 <6> <6 5>2
+  <6> <6>4 <4 2>
+  <6> <4! 2>8 <\t \t> <6>4 <3>
+  <6>2 <[6]>
+  r1 %55
+  r2 <5>4 <6!>
+  r <6 5> r <6!>
+  r <6 5> <5> <6!>8 <\t>
+  <4!>4 <[3]>8 <6> \bo <[5+] 4>4 <\t _+>8 \bc <[\t] \t>
+  <6> <6\\> r4 <6 5> <_+> %60
+  r2 <6 5>4 <_+>
+  <6> <_!>8 <[6]> <6 5>2
+  <6>4 <4 2>8 <\t \t> r2
+  <6> q
+  <[6]>2 <6>8 r <4 2> <\t \t> %65
+  r2 <6 5>4 <_+>
+  r <[6]> <6 5> <_+>
+  <6>8 r <4! 2> <\t \t> <9> <8> r4
+  <5> <6> <_!> <[6]>
+  <5> <6>2 <[6]>4 %70
+  r8 <[6]> <7> <7 _+> <[6]>2
+  r1
+  r
+  r
+  <7 _+>4 <6 4> <5 \t> <\t 3> %75
+  r1
+  <6 5> %77 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass
