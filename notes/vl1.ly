@@ -476,9 +476,103 @@ LaudateDominumViolinoI = {
   }
 }
 
-% ViolinoI = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
+MagnificatViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    g'4\fE r r2
+    r4 e' f2
+    e4 g c2
+    h h
+    c4 c2 h4 %5
+    \tempoMagnificatB c8 g16 f e8 d e16 c e g c h32 a g f e d
+    c8 g'16 e c8 d \tuplet 3/2 8 { \sbOn e16 d c d e f e d c d e f \sbOff }
+    e g a h c8 c \kneeBeam h g,, h d
+    g, d'''16 h g8 a \tuplet 3/2 8 { \sbOn h16 a g a h c \sbOff } h4\trill
+    a16 fis a fis a fis a fis a8 a,16 a' h8 g,16 h' %10
+    c8 h16 a \tuplet 3/2 8 { \sbOn h a g a h c h a g a h c h a g a h c \sbOff }
+    h8 a16 g a8 fis g16 fis32 e d c h a g16 fis32 e d c h a
+    g8 g'16 a h g h d g8 h, h h
+    c g' g g f f f f16 f
+    e c e g c8 h c h c e, %15
+    e d16 c h g h d g8 g, h d
+    r g, c e r g, d' f
+    \tuplet 3/2 8 { \sbOn e16 d c d e f e d c d e f \sbOff } e c e g c8 c
+    c c c h c4 r
+    R1 %20
+    c,16 d32 e f g a h c4 r2
+    R1*2
+    \tuplet 3/2 8 { \sbOn h,16 a g a h c h a g a h c \sbOff } h4 r
+    r2 g,16 a32 h c d e fis g4 %25
+    r2 \tuplet 3/2 8 { \sbOn fis'16 e d e fis g fis e d e fis g \sbOff }
+    fis4 r r2
+    R1
+    h,8\p h h h h h h h
+    a a a a g g g g %30
+    g g g a a g16 fis g8 g
+    h h h h a a a a
+    g fis e e dis fis fis fis
+    e e a fis g g g g
+    fis fis g-\critnote fis e2 %35
+    c'4\f c16 d32 e f g a h c8 g16 e c8 d
+    \tuplet 3/2 8 { \sbOn e16 d c d e f e d c d e f \sbOff } e g c4 h8
+    a a a a a g r4
+    r8 g, h d r g, c e
+    r g, d' f r g, e' g %40
+    f16 f d'8 e,16 e c'8 d,16 d h'8 c, e
+    f16. f32 e16. d32 \tuplet 3/2 8 { \sbOn e16 d c d e f e d c d e f \sbOff } e4
+    d \tempoMagnificatC d2 d4
+    r es2 es4
+    es d2 c4 %45
+    d2 \tempoMagnificatD r8 d d d
+    d a' d, a' d, b' d, b'
+    d, a' d, a' d, b' d, b'
+    f! c' f, c' f, d' f, d'
+    f, c' f, c' f, d' f, d' %50
+    b, f' b, f' b, g' b, g'
+    b, f' b, f' b, g' b, g'
+    es b' es, b' es, c' es, c'
+    f, c' f, c' f, d' f, d'
+    g,, d' g, d' es es r4 \noBreak %55
+    \tempoMagnificatE R1\fermata \bar "||"
+    \tempoMagnificatF R1*14 %70
+    r2 a,,8\fE a a a
+    \tuplet 3/2 8 { \sbOn c'16 h a h c d c h a h c d \sbOff } c16. e32 a16 c, h8 gis'
+    a, c16.^\critnote c32 e8 a gis16. e32 h16. gis32 e16 gis h e
+    gis8 g g c h16 g d h g h d g
+    g,8 g' g g g16. g32 f16 e f8 fis16 g %75
+    c8 c c c c16. c32 h16 a g8 f
+    e16 f e f g8 f \tuplet 3/2 8 { \sbOn e16 d c d e f e d c d e f \sbOff }
+    e f e f g8 f e4 d
+    \tempoMagnificatG e2 cis
+    d e %80
+    fis fis~
+    fis4 e2 dis4
+    e2 e\p
+    e d
+    e f %85
+    d c
+    h4 c2 h4 \noBreak
+    c1\fermata \bar "||"
+    \tempoMagnificatH R1*4 %92
+    c8\fE e g f e c f d
+    e c f d e16 c g'4 fis8
+    g4 d8 fis g h e, fis %95
+    g h e, fis g g, f4
+    e8 c' g-\critnote h c e a, h
+    c e a, h c h a \once \tieDashed d~
+    d c h4 c8 a gis a16 h
+    c8 e a, d c e a, d %100
+    cis a' g f16 e f4 r
+    r8 f e h16 cis d4 e8 h16 cis
+    d4 r g,8 h d c
+    h g c a h g c a
+    h16 g c4 h8 c4 g8 h %105
+    c e a, h c e a, h
+    c4 r r2
+    c8 e g f e c f d
+    e c f d e c a h
+    c e a, h c16 g c4 h8 %110
+    c4 h c r\fermata \bar "|." %111 FINIS
+  }
+}

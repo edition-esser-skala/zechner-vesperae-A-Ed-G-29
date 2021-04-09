@@ -260,63 +260,132 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "5"
+  %     title = "L A U D A T E   D O M I N U M"
+  %   }
+  %   \tocSection "5" "Laudate Dominum"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LaudateDominumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LaudateDominumViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \LaudateDominumSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \LaudateDominumSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \LaudateDominumAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \LaudateDominumAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \LaudateDominumTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \LaudateDominumTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \LaudateDominumBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \LaudateDominumBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \LaudateDominumOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \LaudateDominumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "5"
-      title = "L A U D A T E   D O M I N U M"
+      number = "6"
+      title = "M A G N I F I C A T"
     }
-    \tocSection "5" "Laudate Dominum"
+    \tocSection "6" "Magnificat"
     \score {
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine \MagnificatClarinoI \MagnificatClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \MagnificatTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LaudateDominumViolinoI
+              \MagnificatViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LaudateDominumViolinoII
+              \MagnificatViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \LaudateDominumSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \MagnificatSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \LaudateDominumSopranoLyrics
+          \new Lyrics \lyricsto Soprano \MagnificatSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \LaudateDominumAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \MagnificatAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \LaudateDominumAltoLyrics
+          \new Lyrics \lyricsto Alto \MagnificatAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \LaudateDominumTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \MagnificatTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \LaudateDominumTenoreLyrics
+          \new Lyrics \lyricsto Tenore \MagnificatTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \LaudateDominumBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \MagnificatBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \LaudateDominumBassoLyrics
+          \new Lyrics \lyricsto Basso \MagnificatBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \LaudateDominumOrgano
+            \MagnificatOrgano
           }
         >>
-        \new FiguredBass { \LaudateDominumBassFigures }
+        \new FiguredBass { \MagnificatBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

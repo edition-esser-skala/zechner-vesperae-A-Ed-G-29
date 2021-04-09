@@ -787,13 +787,177 @@ LaudateDominumTenoreLyrics = \lyricmode {
   _ men. %77 finis
 }
 
-% TenoreNotes = {
-%   \relative c' {
-%     \clef "treble_8"
-%
-%   }
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+MagnificatTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoMagnificat
+    R1
+    r4 \mvTr c\fE^\tutti d4. d8
+    e4 e c a
+    d2 d4 d8 d
+    e4 d d4. d8 %5
+    \tempoMagnificatB c c c h c c r4
+    r8 e e d e([ d e d]
+    e) d e e16 e d8 d r4
+    r8 d d d d d d d16 d
+    d8 d r d d d r d %10
+    c a d d d d d d
+    d e^\critnote e([ d)] d4 r
+    r8 h h h h4 h
+    r8 e e e d d d d16 d
+    c8 c e d e d e e16 e %15
+    e8 d r g, h d r g,
+    c e r g, d' f r4
+    c8 d e h c c e e
+    d d d4 e r
+    R1*9 %28
+    r8 \mvTr g,4\pE^\solo h8 d2(
+    dis4.) dis8 e8. e,16 e4 %30
+    c'8 c c c c h16([ a)] h4
+    r8 h4 cis8 d8. a16 a8 h
+    c h16 h h8([ a)] h4 h
+    ais a g8([ e)] e'4
+    c8 h16 a g8([ fis)] e4 r %35
+    \mvTr e'\fE^\tutti e r8 e e d
+    e([ d e d] e8.) e16 d8 e^\critnote
+    c8. c16 c4 c8 h r g
+    h d r g, c e r g,
+    d' f r g, e' g r4 %40
+    d8 d c c a([ d)] g, e'
+    d d c h e h c4
+    h \tempoMagnificatC b b8. b16 b4
+    r b b4. b8
+    c4 b8([ a)] g4. g8 %45
+    a2 \tempoMagnificatD r8 d d4
+    d8 d d4 d8 d d4
+    d8 d d4 d8 d d4
+    f!8 f f4 d8 d d4
+    f8 f f4 d8 d d4 %50
+    d8 d d4 b8 b b4
+    d8 d d4 b8 b b4
+    b8 b es4 c8 c c c
+    c c es es d d d d
+    d d f f es es r4 \noBreak %55
+    \tempoMagnificatE d4. d8 e2\fermata \bar "||"
+    \tempoMagnificatF R1*16 %72
+    r8 \mvTr c\fE^\tutti c c h8. h16 h4
+    r8 e e e d8. d16 d8 d
+    c c c c c8. c16 c8 c %75
+    d d d d d8. d16 d8 d
+    e8. e16 h4 c8([ h)] e h
+    c8. c16 h8 d e8. e16 d4
+    \tempoMagnificatG e e8 e e4 e
+    r a, h! cis %80
+    a2 fis'4 fis
+    fis e8 e e4( dis)
+    e2 r
+    R1*4 \noBreak %87
+    R1\fermata \bar "||"
+    \tempoMagnificatH R1*2 %90
+    \mvTr g,8\fE^\tutti h d c16 c h8 g c a
+    h g c a h16([ g] c4 h8)
+    c4 g8[ h] c[ e a, h]
+    c[ e a, h] c[ d] c4
+    h4. a8 g4 a %95
+    g a g8[ e'] d4
+    c4 r r2
+    R1
+    r2 a8 c e d16 d
+    c8 a d h c a d h %100
+    cis16([ a] d4 cis8) d4 e8[ cis]
+    d[ f h,! cis] d[ f h, cis]
+    d d[ e a,] d[^\critnote g,] fis4
+    g a g a
+    g8 e' d4 e8[ c h d] %105
+    e4 c8[ d] g, c4 d8
+    c[ h c d] h c4 h8
+    c4 h8[ d] c[ e a, h]
+    c e[ c d] e4 c8[ d]
+    g, c4 d8 g, g g4 %110
+    g g g r\fermata \bar "|." %111 FINIS
+  }
+}
+
+MagnificatTenoreLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat, ma -- gni -- fi --
+  cat a -- ni -- ma
+  me -- a Do -- mi -- %5
+  num, et ex -- sul -- ta -- vit,
+  et ex -- sul -- ta --
+  vit spi -- ri -- tus me -- us,
+  et ex -- sul -- ta -- vit spi -- ri -- tus
+  me -- us in De -- o, in %10
+  De -- o sa -- lu -- ta -- ri, sa -- lu --
+  ta -- ri me -- o,
+  et ex -- sul -- ta -- vit,
+  et ex -- sul -- ta -- vit spi -- ri -- tus
+  me -- us, ex -- sul -- ta -- vit spi -- ri -- tus %15
+  me -- us in De -- o, in
+  De -- o, in De -- o
+  sa -- lu -- ta -- ri me -- o, sa -- lu --
+  ta -- ri me -- o.
+
+  Et mi -- se -- %29
+  ri -- cor -- di -- a %30
+  e -- ius a pro -- ge -- ni -- e
+  in pro -- ge -- ni -- es ti --
+  men -- ti -- bus e -- um, ti --
+  men -- ti -- bus, ti --
+  men -- ti -- bus e -- um. %35
+  Fe -- cit, fe -- cit po --
+  ten -- ti -- am in
+  bra -- chi -- o su -- o, dis --
+  per -- sit, dis -- per -- sit, dis --
+  per -- sit su -- per -- bos %40
+  men -- te cor -- dis su -- i, su --
+  per -- bos men -- te cor -- dis su --
+  i. De -- po -- su -- it,
+  de -- po -- su --
+  it, de -- po -- su -- %45
+  it po -- ten --
+  tes de se -- de, po -- ten --
+  tes de se -- de, po -- ten --
+  tes de se -- de, po -- ten --
+  tes de se -- de, po -- ten -- %50
+  tes de se -- de, po -- ten --
+  tes de se -- de, po -- ten --
+  tes de se -- de et ex -- al --
+  ta -- vit, ex -- al -- ta -- vit, ex -- al --
+  ta -- vit, ex -- al -- ta -- vit %55
+  hu -- mi -- les.
+
+  Si -- cut lo -- cu -- tus est, %73
+  si -- cut lo -- cu -- tus est ad
+  pa -- tres no -- stros, A -- bra -- ham, ad %75
+  pa -- tres no -- stros, A -- bra -- ham et
+  se -- mi -- ni e -- ius in
+  sae -- cu -- la, in sae -- cu -- la.
+  Glo -- ri -- a Pa -- tri
+  et Fi -- li -- %80
+  o et Spi --
+  ri -- tu -- i San --
+  cto.
+
+  Et in sae -- cu -- la sae -- cu -- lo -- rum, %91
+  sae -- cu -- lo -- rum, a --
+  men, a -- _
+  _ _ _
+  _ _ men, a -- %95
+  _ _ _ _
+  men,
+
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, sae -- cu -- lo -- rum, %100
+  a -- men, a --
+  _ _
+  men, a -- _ _
+  _ _ _ _
+  _ men, a -- _ %105
+  _ _ _ _ _
+  _ _ _ _
+  _ _ _
+  men, a -- _ _
+  _ _ _ _ men, a -- %110
+  men, a -- men. %111 FINIS
+}
