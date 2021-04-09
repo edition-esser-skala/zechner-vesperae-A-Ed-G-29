@@ -52,7 +52,7 @@ DixitViolinoI = {
     c,4 c2 c4
     es2 r8 es4 es8 %55
     d2 d
-    c4 e! c2 \noBreak
+    c4 d^\critnote c2 \noBreak
     h1\fermata \bar "||"
     \tempoDixitC g4 g a8 a16 h c8 d \noBreak
     e d c h a g a h %60

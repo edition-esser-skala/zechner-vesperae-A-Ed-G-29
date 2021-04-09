@@ -295,7 +295,7 @@ BeatusAltoNotes = {
     \key a \major \time 3/4 \autoBeamOff \tempoBeatus
     \mvTr e4\fE^\tutti e e
     e2 r4
-    r8 e e e fis8. fis16
+    r8 e e e fis^\critnote fis
     e2 r4
     fis4. fis8 fis fis %5
     e4 a a
