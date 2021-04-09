@@ -27,6 +27,7 @@ $(scores:%=final/%.pdf): final/%.pdf: front_matter/critical_report.tex tmp/%.pdf
 	mkdir -p final
 	latexmk -cd \
 	        -lualatex \
+	        -lualatex="lualatex %O %S $*" \
 	        -outdir=../final \
 	        -jobname=$* \
 	        front_matter/critical_report.tex

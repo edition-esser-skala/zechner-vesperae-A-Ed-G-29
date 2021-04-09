@@ -17,7 +17,6 @@
   pagenumberformat=\itshape
 ]{tocline}{part}
 
-% use commented values if there are parts
 \DeclareTOCStyleEntry[
   indent=0pt,
   beforeskip=0pt,
@@ -203,11 +202,6 @@ if not (scores[last_arg] == nil) then
 end
 }
 
-% uncomment if the full score is in landscape format
-%\ifprintreport
-%\geometry{landscape,outer=127mm}
-%\fi
-
 \@ifundefined{lypdfname}{%
   \templatefalse
   \printreporttrue
@@ -215,8 +209,6 @@ end
 }{\templatetrue}
 
 \makeatother
-
-
 
 
 
@@ -245,7 +237,7 @@ end
 Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
 Front matter typeset with Source Sans Pro and Fredericka the Great.
 
-\textit{First version, March 2021}
+\textit{First version, April 2021}
 
 \vspace*{2cm}
 
@@ -266,6 +258,7 @@ In general, this edition closely follows the manuscript. Any changes that were i
     & 36   & vl 2    & 7th eighth in Ms: e″8 \\
     & 57   & vl 1    & 2nd quarter in Ms: e″4 \\
     & 61   & vl 1    & 1st quarter in Ms: c′8–d″16–e″16 \\
+  \midrule
   2 & –    & –       & key is e mixolydian in Ms  \\
     & 30   & vlne    & bar in Ms: gis1 \\
     & 31   & A       & 1st half of bar in Ms: fis′4.–fis′8 \\
@@ -277,12 +270,14 @@ In general, this edition closely follows the manuscript. Any changes that were i
     & 69   & S       & 1st eighth in Ms: fis′8 \\
     & 69   & B       & 2nd quarter in Ms: dis4; last eighth: B8 \\
     & 80   & org     & 2nd half of bar in Ms: e2 \\
+  \midrule
   3 & –    & –       & key is a mixolydian in Ms \\
     & 3    & A       & 3rd quarter in Ms: fis′8.–fis′16 \\
     & 16   & vl 1, 2 & 2nd quarter in Ms: cis″16–a″16–cis″16–a″16 \\
     & 44   & A       & bar in Ms: gis′8–gis′8–a′4.–a′8 \\
     & 78   & org     & bar in Ms: A2–r4 \\
     & 139f & vl 2    & one bar missing in Ms \\
+  \midrule
   4 & 21   & S       & 4th quarter in Ms: d″8–e″8 \\
     & 33   & T       & 1st quarter in Ms: cis′4 \\
     & 47   & vl 2    & 1st eighth in Ms: c″8 \\
@@ -297,12 +292,14 @@ In general, this edition closely follows the manuscript. Any changes that were i
     & 79   & A       & 7th eighth in Ms: fis′8 \\
     & 82   & vl 2    & last sixteenth in Ms: g′16 \\
     & 84   & vl 1    & 4th sixteenth in Ms: d″16 \\
+  \midrule
   5 & 9    & vl 1, 2 & 2nd eighth in Ms: d′8 \\
     & 53   & A       & 2nd/3rd eighth in Ms: fis′8–e′8 \\
-  6 & 82   & vlne    & bar in Ms: B1 \\
+    & 82   & vlne    & bar in Ms: B1 \\
     & 84   & vlne    & bar in Ms: Gis1 \\
     & 87   & vlne    & bar in Ms: G1 \\
-  7 & 6    & timp    & 2nd half of bar in Ms: r8–c8–c16–c16–c8 \\
+  \midrule
+  6 & 6    & timp    & 2nd half of bar in Ms: r8–c8–c16–c16–c8 \\
     & 9    & vl 2    & 2nd half of bar in Ms: g″8–fis″8–g″8–fis″8 \\
     & 10   & A       & last eighth in Ms: g′8 \\
     & 12   & T       & 2nd eighth in Ms: d′8 \\
@@ -324,7 +321,7 @@ In general, this edition closely follows the manuscript. Any changes that were i
 This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/zechner-vesperae-A-Ed-G-29}. Your help will be greatly appreciated.
 
 \bigskip
-\textit{Koppl, March 2021\\
+\textit{Koppl,  April 2021\\
 Wolfgang Esser-Skala}
 
 \cleardoublepage
