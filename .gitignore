@@ -1,10 +1,8 @@
 final/*
 manuscript/*
 tmp/*
-*.zip
-main.pdf
 front_matter/critical_report.pdf
-*.midi
+main.pdf
 *.aux
 *.bbl
 *.blg
@@ -12,6 +10,8 @@ front_matter/critical_report.pdf
 *.fls
 *.log
 *.macros
+*.midi
+*.out
 *.ps
 *.ref
 *.toc

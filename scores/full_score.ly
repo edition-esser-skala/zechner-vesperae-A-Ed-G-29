@@ -1,29 +1,23 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "D I X I T   D O M I N U S"
-    }
+    \section "1" "Dixit Dominus"
+    \addTocEntry
     \paper { indent = 3\cm }
-    \tocSection "1" "Dixit Dominus"
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine \DixitClarinoI \DixitClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
           \DixitTimpani
         }
         \new StaffGroup <<
@@ -41,25 +35,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \DixitSopranoNotes }
           }
           \new Lyrics \lyricsto Soprano \DixitSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitAlto
             \new Voice = "Alto" { \dynamicUp \DixitAltoNotes }
           }
           \new Lyrics \lyricsto Alto \DixitAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \DixitTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \DixitTenoreLyrics
@@ -84,10 +72,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "C O N F I T E B O R"
-    }
+    \section "2" "Confitebor"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -97,7 +83,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocSection "2" "Confitebor"
     \score {
       <<
         \new StaffGroup <<
@@ -152,10 +137,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "B E A T U S   V I R"
-    }
+    \section "3" "Beatus vir"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -165,7 +148,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocSection "3" "Beatus vir"
     \score {
       <<
         \new StaffGroup <<
@@ -220,10 +202,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "L A U D A T E   P U E R I"
-    }
+    \section "4" "Laudate pueri"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -233,7 +213,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocSection "4" "Laudate pueri"
     \score {
       <<
         \new StaffGroup <<
@@ -288,10 +267,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "L A U D A T E   D O M I N U M"
-    }
+    \section "5" "Laudate Dominum"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -301,7 +278,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocSection "5" "Laudate Dominum"
     \score {
       <<
         \new StaffGroup <<
@@ -356,11 +332,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "M A G N I F I C A T"
-    }
-    \tocSection "6" "Magnificat"
+    \section "6" "Magnificat"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<

@@ -1,17 +1,18 @@
-composer: Zechner, Johann Georg
-title: Vesperae solennes de Dominica
-id: (A-Ed G 29)
+composer:
+  last: Zechner
+  first: Johann Georg
+title: Vesperæ solennes de Dominica
 genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: G 29
-    type: manuscript copy
-    date: unknown
     rism: 600038431
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1013.html
-github: zechner-vesperae-A-Ed-G-29
+    license: public domain
+    principal: true
 imslp: Vesperae_solennes_de_Dominica_(Zechner,_Johann_Georg)
-notes:
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
